@@ -4,7 +4,6 @@ import time
 from datetime import datetime
 from confluent_kafka import Producer
 
-# Kafka connection
 producer = Producer({
     "bootstrap.servers": "localhost:9092"
 })

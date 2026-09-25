@@ -4,7 +4,6 @@ import snowflake.connector
 from getpass import getpass
 
 
-# Kafka configuration
 consumer = Consumer({
     "bootstrap.servers": "localhost:9092",
     "group.id": "iot-snowflake-consumer",
@@ -15,7 +14,6 @@ topic = "iot_container_telemetry"
 consumer.subscribe([topic])
 
 
-# Snowflake connection
 conn = snowflake.connector.connect(
     account="KXSJJKP-YE27378",
     user="snehasheela",
@@ -46,7 +44,6 @@ try:
 
         data = json.loads(msg.value().decode("utf-8"))
 
-        # Insert into staging table first
         cursor.execute(
             """
             INSERT INTO IOT_TELEMETRY_STAGE
@@ -62,7 +59,7 @@ try:
             )
         )
 
-        # Insert into main table only if the record is new
+        
         cursor.execute(
             """
             INSERT INTO CONTAINER_TELEMETRY
