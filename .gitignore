@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+logs/
+
+.env
+*.env
+
+dbt_atmosync/target/
+dbt_atmosync/dbt_packages/
+dbt_atmosync/logs/
+
+.vscode/
+
+.DS_Store
+Thumbs.db
