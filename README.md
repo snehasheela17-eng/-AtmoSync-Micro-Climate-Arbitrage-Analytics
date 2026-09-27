@@ -235,9 +235,10 @@ The final ingestion should use duplicate-safe insert/upsert logic instead of bli
 The current Snowflake test table was inspected for duplicates.
 This test result demonstrates why duplicate protection is required. 
 
- 15. Conclusion
-
+ 15. Conclusion:
 AtmoSync demonstrates an end-to-end weather-data engineering workflow:
+ Project Workflow
+
 1. Python Environment
         ↓
 2. Kafka/KRaft Setup
@@ -277,6 +278,6 @@ AtmoSync demonstrates an end-to-end weather-data engineering workflow:
 19. Dashboard / Superset
         ↓
 20. README + Documentation
- 
+
 The project emphasises data quality, reproducibility, streaming architecture, cloud storage, and team collaboration. The repository is designed so that any team member can clone the `main` branch, install the documented dependencies, configure required local services and credentials, and execute the pipeline without relying on the team lead's personal development environment.
 
