@@ -91,7 +91,6 @@ ATMOSYNC
                          
 
  Planned live path
-
      text
 Open-Meteo Weather API
        |
