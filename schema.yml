@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: atmosync_arbitrage_analysis
+    description: "Final AtmoSync micro-climate and market arbitrage analysis."
+
+    columns:
+      - name: timestamp
+        tests:
+          - not_null
+
+      - name: city
+        tests:
+          - not_null
+
+      - name: product
+        tests:
+          - not_null
+
+      - name: price_inr
+        tests:
+          - not_null
+
+      - name: arbitrage_opportunity
+        tests:
+          - not_null
+
+      - name: price_movement
+        tests:
+          - not_null
