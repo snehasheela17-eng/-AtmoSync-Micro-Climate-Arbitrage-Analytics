@@ -89,7 +89,7 @@ ATMOSYNC
           Dashboard / Superset
 
 
-### Planned live path
+ Planned live path
 
      text
 Open-Meteo Weather API
@@ -111,7 +111,7 @@ Power BI / Analytics
 
 Historical and live data are treated as separate ingestion paths so historical data can be validated independently from continuously changing live data.
 
-## 6. Technologies
+ 6. Technologies
 
 | Technology | Purpose |
 | Python | Data processing, cleaning, Kafka producer/consumer |
