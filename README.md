@@ -44,50 +44,51 @@ AtmoSync introduces data profiling and validation before downstream ingestion an
 5. High-Level Architecture
 
 ATMOSYNC
-                    │
-       ┌────────────┼─────────────┐
-       │            │             │
-       ▼            ▼             ▼
- Historical      Live Weather    IoT Sensors
- Weather Data       API           Simulator
-       │            │             │
-       └────────────┼─────────────┘
-                    │
-                    ▼
-                  KAFKA
-             (Real-time Streaming)
-                    │
-       ┌────────────┼─────────────┐
-       ▼            ▼             ▼
- Historical     Live Weather     IoT Data
- Consumer        Consumer        Consumer
-       │            │             │
-       └────────────┼─────────────┘
-                    ▼
-                SNOWFLAKE
-              ATMOSYNC_DB
-                  RAW
-                    │
-             ┌──────┴──────┐
-             │             │
-             ▼             ▼
-        Market Data     IoT Data
-             │             │
-             └──────┬──────┘
-                    ▼
-                  DBT
-                    │
-                    ▼
-        Micro-Climate + Market
-              Analysis
-                    │
-                    ▼
-          Arbitrage Opportunity
-                Analysis
-                    │
-                    ▼
-          Dashboard / Superset
+     Architecture
 
+                              ATMOSYNC
+                                  │
+             ┌────────────────────┼────────────────────┐
+             │                    │                    │
+             ▼                    ▼                    ▼
+      Historical Weather    Live Weather API      IoT Sensors
+           Data                                      Simulator
+             │                    │                    │
+             └────────────────────┼────────────────────┘
+                                  │
+                                  ▼
+                         KAFKA (Real-time Streaming)
+                                  │
+             ┌────────────────────┼────────────────────┐
+             │                    │                    │
+             ▼                    ▼                    ▼
+      Historical Consumer   Live Weather Consumer   IoT Data Consumer
+             │                    │                    │
+             └────────────────────┼────────────────────┘
+                                  │
+                                  ▼
+                            SNOWFLAKE
+                          ATMOSYNC_DB
+                               RAW
+                                  │
+                         ┌────────┴────────┐
+                         │                 │
+                         ▼                 ▼
+                    Market Data        IoT Data
+                         │                 │
+                         └────────┬────────┘
+                                  ▼
+                                DBT
+                                  │
+                                  ▼
+                    Micro-Climate + Market Analysis
+                                  │
+                                  ▼
+                    Arbitrage Opportunity Analysis
+                                  │
+                                  ▼
+                         Dashboard / Superset
+                         
 
  Planned live path
 
