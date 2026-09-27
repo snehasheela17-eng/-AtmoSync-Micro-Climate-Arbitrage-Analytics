@@ -200,14 +200,11 @@ Reads validated records and publishes JSON messages to Kafka.
 Reads Kafka messages and sends the relevant weather fields to Snowflake.
 
  12. Snowflake
-
-Current database structure:
+ Snowflake Structure:
 
 ATMOSYNC_DB
-    |
-    └── RAW
-         |
-         └── WEATHER_DATA
+└── RAW
+    └── WEATHER_DATA
 
 Current table fields:
 
