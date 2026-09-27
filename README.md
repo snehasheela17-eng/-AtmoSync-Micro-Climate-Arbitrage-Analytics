@@ -277,4 +277,4 @@ AtmoSync demonstrates an end-to-end weather-data engineering workflow:
 20. README + Documentation
 
 The project emphasises data quality, reproducibility, streaming architecture, cloud storage, and team collaboration. The repository is designed so that any team member can clone the `main` branch, install the documented dependencies, configure required local services and credentials, and execute the pipeline without relying on the team lead's personal development environment.
-
+GitHub main branch sync test.
