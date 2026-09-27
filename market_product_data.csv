@@ -1,0 +1,1001 @@
+date,city,state,product,category,supply_level,demand_level,price_inr,price_change_pct,storage_risk,market_status
+2026-01-01,Bangalore,Karnataka,Banana,Fruit,23.64,80.81,53.05,9.01,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-01-01,Bangalore,Karnataka,Mango,Fruit,72.34,87.33,98.29,-14.33,HIGH,HIGH_DEMAND
+2026-01-01,Chennai,Tamil Nadu,Potato,Vegetable,50.77,49.99,28.76,-12.93,LOW,NORMAL
+2026-01-01,Hyderabad,Telangana,Onion,Vegetable,27.97,83.24,41.06,2.5,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-01-01,Hyderabad,Telangana,Potato,Vegetable,86.3,53.73,23.41,13.11,LOW,HIGH_SUPPLY
+2026-01-01,Mysore,Karnataka,Mango,Fruit,93.44,41.65,78.23,-2.36,MEDIUM,HIGH_SUPPLY
+2026-01-02,Bangalore,Karnataka,Onion,Vegetable,25.13,52.76,38.96,-0.46,LOW,NORMAL
+2026-01-02,Bangalore,Karnataka,Potato,Vegetable,70.56,46.35,25.85,12.38,LOW,NORMAL
+2026-01-02,Chennai,Tamil Nadu,Mango,Fruit,92.96,88.91,88.96,-0.15,HIGH,HIGH_SUPPLY
+2026-01-02,Chennai,Tamil Nadu,Onion,Vegetable,44.99,42.18,31.67,18.53,LOW,NORMAL
+2026-01-02,Chennai,Tamil Nadu,Onion,Vegetable,75.1,65.03,26.12,9.48,MEDIUM,HIGH_SUPPLY
+2026-01-02,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,41.84,73.69,26.08,4.8,MEDIUM,HIGH_DEMAND
+2026-01-02,Hyderabad,Telangana,Onion,Vegetable,66.13,31.38,24.72,-2.08,LOW,NORMAL
+2026-01-02,Hyderabad,Telangana,Potato,Vegetable,95.54,33.37,14.61,-14.92,LOW,HIGH_SUPPLY
+2026-01-03,Bangalore,Karnataka,Spinach,Leafy Vegetable,72.46,73.56,26.68,18.28,HIGH,HIGH_DEMAND
+2026-01-03,Hyderabad,Telangana,Tomato,Vegetable,85.5,80.6,36.28,-11.04,HIGH,HIGH_SUPPLY
+2026-01-04,Chennai,Tamil Nadu,Banana,Fruit,86.57,48.99,36.39,3.05,HIGH,HIGH_SUPPLY
+2026-01-04,Hyderabad,Telangana,Spinach,Leafy Vegetable,97.47,34.65,12.38,16.06,MEDIUM,HIGH_SUPPLY
+2026-01-05,Chennai,Tamil Nadu,Banana,Fruit,34.08,96.1,53.63,12.86,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-01-05,Hyderabad,Telangana,Potato,Vegetable,56.05,89.9,38.16,-12.61,LOW,HIGH_DEMAND
+2026-01-05,Hyderabad,Telangana,Spinach,Leafy Vegetable,41.0,80.31,33.36,-13.42,HIGH,HIGH_DEMAND
+2026-01-05,Hyderabad,Telangana,Tomato,Vegetable,51.67,62.15,38.99,-9.51,HIGH,NORMAL
+2026-01-06,Bangalore,Karnataka,Mango,Fruit,94.35,33.27,79.23,14.81,MEDIUM,HIGH_SUPPLY
+2026-01-06,Bangalore,Karnataka,Tomato,Vegetable,38.7,93.13,50.14,14.29,HIGH,HIGH_DEMAND_LOW_SUPPLY
+2026-01-06,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,23.91,85.02,34.1,6.71,HIGH,HIGH_DEMAND_LOW_SUPPLY
+2026-01-06,Hyderabad,Telangana,Banana,Fruit,43.28,40.02,40.32,14.22,MEDIUM,NORMAL
+2026-01-07,Chennai,Tamil Nadu,Onion,Vegetable,73.91,47.43,25.46,-0.83,LOW,NORMAL
+2026-01-07,Chennai,Tamil Nadu,Onion,Vegetable,98.54,80.11,24.51,-2.51,LOW,HIGH_SUPPLY
+2026-01-07,Chennai,Tamil Nadu,Tomato,Vegetable,67.59,34.41,24.33,4.62,HIGH,NORMAL
+2026-01-07,Hyderabad,Telangana,Mango,Fruit,41.69,71.48,94.96,13.48,HIGH,HIGH_DEMAND
+2026-01-08,Hyderabad,Telangana,Banana,Fruit,79.52,40.55,35.18,12.47,MEDIUM,HIGH_SUPPLY
+2026-01-08,Mysore,Karnataka,Mango,Fruit,29.67,80.47,98.46,1.78,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-01-09,Hyderabad,Telangana,Banana,Fruit,23.05,77.14,54.11,1.23,HIGH,HIGH_DEMAND_LOW_SUPPLY
+2026-01-10,Bangalore,Karnataka,Tomato,Vegetable,70.24,38.08,26.23,-2.7,HIGH,NORMAL
+2026-01-10,Chennai,Tamil Nadu,Banana,Fruit,98.22,59.97,42.2,11.71,HIGH,HIGH_SUPPLY
+2026-01-10,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,60.31,66.66,30.44,-14.35,HIGH,NORMAL
+2026-01-10,Hyderabad,Telangana,Mango,Fruit,56.06,39.82,84.12,2.59,MEDIUM,NORMAL
+2026-01-10,Mysore,Karnataka,Mango,Fruit,36.77,40.84,93.01,6.32,MEDIUM,NORMAL
+2026-01-11,Bangalore,Karnataka,Potato,Vegetable,88.71,43.49,25.6,9.11,MEDIUM,HIGH_SUPPLY
+2026-01-11,Hyderabad,Telangana,Mango,Fruit,40.96,41.91,86.28,19.81,MEDIUM,NORMAL
+2026-01-11,Mysore,Karnataka,Tomato,Vegetable,79.99,37.38,26.45,-6.92,MEDIUM,HIGH_SUPPLY
+2026-01-12,Bangalore,Karnataka,Spinach,Leafy Vegetable,32.46,97.9,41.71,-4.16,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-01-12,Bangalore,Karnataka,Spinach,Leafy Vegetable,61.75,42.75,22.27,16.06,MEDIUM,NORMAL
+2026-01-12,Chennai,Tamil Nadu,Potato,Vegetable,36.2,45.21,26.81,1.92,LOW,NORMAL
+2026-01-12,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,98.74,73.57,26.32,-11.51,HIGH,HIGH_SUPPLY
+2026-01-13,Bangalore,Karnataka,Tomato,Vegetable,23.5,53.65,44.48,9.65,HIGH,NORMAL
+2026-01-15,Chennai,Tamil Nadu,Tomato,Vegetable,66.76,84.62,38.83,10.2,HIGH,HIGH_DEMAND
+2026-01-15,Mysore,Karnataka,Banana,Fruit,38.37,77.63,54.48,-11.22,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-01-15,Mysore,Karnataka,Mango,Fruit,95.54,62.88,81.21,3.86,HIGH,HIGH_SUPPLY
+2026-01-16,Bangalore,Karnataka,Mango,Fruit,85.96,42.32,86.45,-10.13,MEDIUM,HIGH_SUPPLY
+2026-01-16,Bangalore,Karnataka,Potato,Vegetable,20.77,68.86,32.75,-11.88,LOW,NORMAL
+2026-01-16,Hyderabad,Telangana,Potato,Vegetable,28.83,68.21,35.16,0.64,LOW,NORMAL
+2026-01-16,Hyderabad,Telangana,Spinach,Leafy Vegetable,51.39,30.49,16.92,8.78,HIGH,NORMAL
+2026-01-16,Hyderabad,Telangana,Tomato,Vegetable,56.61,96.37,38.44,2.5,HIGH,HIGH_DEMAND
+2026-01-16,Mysore,Karnataka,Potato,Vegetable,28.36,53.64,27.6,-9.47,LOW,NORMAL
+2026-01-17,Bangalore,Karnataka,Potato,Vegetable,24.63,78.94,34.75,12.5,LOW,HIGH_DEMAND_LOW_SUPPLY
+2026-01-17,Chennai,Tamil Nadu,Tomato,Vegetable,26.89,49.6,37.64,10.93,MEDIUM,NORMAL
+2026-01-17,Hyderabad,Telangana,Mango,Fruit,31.06,65.71,94.41,9.17,HIGH,NORMAL
+2026-01-17,Hyderabad,Telangana,Tomato,Vegetable,50.18,73.27,37.68,17.53,HIGH,HIGH_DEMAND
+2026-01-17,Mysore,Karnataka,Banana,Fruit,99.48,49.82,41.46,-8.58,HIGH,HIGH_SUPPLY
+2026-01-17,Mysore,Karnataka,Mango,Fruit,63.28,81.73,90.16,1.01,MEDIUM,HIGH_DEMAND
+2026-01-17,Mysore,Karnataka,Tomato,Vegetable,71.63,70.55,31.45,12.96,MEDIUM,HIGH_DEMAND
+2026-01-18,Bangalore,Karnataka,Onion,Vegetable,61.24,98.64,42.99,6.7,LOW,HIGH_DEMAND
+2026-01-19,Chennai,Tamil Nadu,Mango,Fruit,27.33,37.62,95.92,-9.76,MEDIUM,NORMAL
+2026-01-19,Hyderabad,Telangana,Spinach,Leafy Vegetable,51.52,57.95,28.97,-8.0,MEDIUM,NORMAL
+2026-01-19,Mysore,Karnataka,Banana,Fruit,83.31,43.47,35.46,2.68,HIGH,HIGH_SUPPLY
+2026-01-20,Hyderabad,Telangana,Tomato,Vegetable,86.06,94.82,41.13,17.7,MEDIUM,HIGH_SUPPLY
+2026-01-20,Mysore,Karnataka,Mango,Fruit,33.87,65.84,91.71,5.24,MEDIUM,NORMAL
+2026-01-20,Mysore,Karnataka,Tomato,Vegetable,56.19,62.08,41.43,-12.81,HIGH,NORMAL
+2026-01-21,Hyderabad,Telangana,Potato,Vegetable,36.3,81.14,40.2,8.53,LOW,HIGH_DEMAND_LOW_SUPPLY
+2026-01-21,Hyderabad,Telangana,Spinach,Leafy Vegetable,65.6,73.83,28.89,15.63,MEDIUM,HIGH_DEMAND
+2026-01-22,Bangalore,Karnataka,Banana,Fruit,80.83,45.7,40.28,13.11,MEDIUM,HIGH_SUPPLY
+2026-01-22,Bangalore,Karnataka,Onion,Vegetable,40.32,98.25,45.55,-5.87,LOW,HIGH_DEMAND
+2026-01-22,Chennai,Tamil Nadu,Mango,Fruit,66.1,70.5,92.85,-0.33,MEDIUM,HIGH_DEMAND
+2026-01-22,Chennai,Tamil Nadu,Mango,Fruit,41.05,74.99,93.31,9.02,MEDIUM,HIGH_DEMAND
+2026-01-22,Mysore,Karnataka,Tomato,Vegetable,99.62,70.82,35.86,15.67,HIGH,HIGH_SUPPLY
+2026-01-23,Bangalore,Karnataka,Onion,Vegetable,89.43,62.35,27.45,13.25,LOW,HIGH_SUPPLY
+2026-01-23,Hyderabad,Telangana,Spinach,Leafy Vegetable,65.69,53.51,18.9,-11.79,HIGH,NORMAL
+2026-01-24,Hyderabad,Telangana,Spinach,Leafy Vegetable,96.11,68.65,19.52,-9.23,MEDIUM,HIGH_SUPPLY
+2026-01-24,Mysore,Karnataka,Potato,Vegetable,86.42,83.54,31.73,3.15,MEDIUM,HIGH_SUPPLY
+2026-01-24,Mysore,Karnataka,Tomato,Vegetable,91.69,65.8,36.44,2.33,HIGH,HIGH_SUPPLY
+2026-01-25,Chennai,Tamil Nadu,Onion,Vegetable,30.98,94.67,39.81,-10.62,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-01-25,Mysore,Karnataka,Spinach,Leafy Vegetable,85.22,38.49,21.51,-12.83,HIGH,HIGH_SUPPLY
+2026-01-26,Bangalore,Karnataka,Potato,Vegetable,73.2,58.11,23.73,2.48,MEDIUM,NORMAL
+2026-01-26,Bangalore,Karnataka,Potato,Vegetable,77.18,58.67,23.95,13.93,MEDIUM,HIGH_SUPPLY
+2026-01-26,Chennai,Tamil Nadu,Tomato,Vegetable,38.82,33.88,33.98,9.67,MEDIUM,NORMAL
+2026-01-26,Hyderabad,Telangana,Onion,Vegetable,55.75,89.85,38.65,-9.98,LOW,HIGH_DEMAND
+2026-01-26,Hyderabad,Telangana,Spinach,Leafy Vegetable,29.26,95.39,34.55,3.48,HIGH,HIGH_DEMAND_LOW_SUPPLY
+2026-01-26,Hyderabad,Telangana,Tomato,Vegetable,53.13,51.12,37.19,-4.26,HIGH,NORMAL
+2026-01-26,Mysore,Karnataka,Onion,Vegetable,60.71,32.75,27.1,-4.89,LOW,NORMAL
+2026-01-27,Bangalore,Karnataka,Potato,Vegetable,46.31,34.22,23.88,11.71,MEDIUM,NORMAL
+2026-01-27,Bangalore,Karnataka,Spinach,Leafy Vegetable,56.36,60.3,22.16,-12.63,HIGH,NORMAL
+2026-01-27,Bangalore,Karnataka,Tomato,Vegetable,35.76,57.48,41.6,-7.57,HIGH,NORMAL
+2026-01-27,Chennai,Tamil Nadu,Potato,Vegetable,76.57,34.87,23.8,-12.13,MEDIUM,HIGH_SUPPLY
+2026-01-27,Hyderabad,Telangana,Banana,Fruit,80.77,39.28,37.34,-8.44,HIGH,HIGH_SUPPLY
+2026-01-27,Hyderabad,Telangana,Tomato,Vegetable,81.99,87.48,38.05,-7.64,MEDIUM,HIGH_SUPPLY
+2026-01-27,Mysore,Karnataka,Mango,Fruit,88.68,30.05,78.39,-12.9,HIGH,HIGH_SUPPLY
+2026-01-28,Bangalore,Karnataka,Onion,Vegetable,43.23,36.45,30.11,19.57,MEDIUM,NORMAL
+2026-01-28,Bangalore,Karnataka,Tomato,Vegetable,98.64,63.88,34.07,15.25,HIGH,HIGH_SUPPLY
+2026-01-28,Mysore,Karnataka,Banana,Fruit,42.01,44.37,46.79,-5.73,MEDIUM,NORMAL
+2026-01-28,Mysore,Karnataka,Mango,Fruit,45.54,49.24,90.46,13.49,HIGH,NORMAL
+2026-01-28,Mysore,Karnataka,Onion,Vegetable,78.13,42.99,24.85,0.82,MEDIUM,HIGH_SUPPLY
+2026-01-29,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,69.19,98.7,33.76,-0.89,MEDIUM,HIGH_DEMAND
+2026-01-29,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,26.41,51.96,25.23,-1.88,HIGH,NORMAL
+2026-01-29,Chennai,Tamil Nadu,Tomato,Vegetable,60.1,49.5,33.97,-10.19,HIGH,NORMAL
+2026-01-29,Chennai,Tamil Nadu,Tomato,Vegetable,66.16,68.56,33.59,7.5,HIGH,NORMAL
+2026-01-29,Hyderabad,Telangana,Spinach,Leafy Vegetable,58.87,90.82,32.7,9.49,MEDIUM,HIGH_DEMAND
+2026-01-29,Mysore,Karnataka,Banana,Fruit,75.6,91.89,45.28,-7.19,MEDIUM,HIGH_SUPPLY
+2026-01-29,Mysore,Karnataka,Mango,Fruit,51.11,96.89,103.91,4.03,MEDIUM,HIGH_DEMAND
+2026-01-29,Mysore,Karnataka,Onion,Vegetable,84.3,94.71,37.33,0.45,LOW,HIGH_SUPPLY
+2026-01-29,Mysore,Karnataka,Tomato,Vegetable,69.71,62.22,36.19,10.07,MEDIUM,NORMAL
+2026-01-29,Mysore,Karnataka,Tomato,Vegetable,91.7,31.0,23.56,-7.81,HIGH,HIGH_SUPPLY
+2026-01-30,Chennai,Tamil Nadu,Potato,Vegetable,53.41,34.7,21.14,7.78,LOW,NORMAL
+2026-01-30,Mysore,Karnataka,Banana,Fruit,91.79,91.17,44.37,5.3,MEDIUM,HIGH_SUPPLY
+2026-01-31,Bangalore,Karnataka,Potato,Vegetable,83.24,51.43,20.47,-7.89,LOW,HIGH_SUPPLY
+2026-01-31,Chennai,Tamil Nadu,Banana,Fruit,73.16,44.07,43.46,-0.92,HIGH,NORMAL
+2026-01-31,Chennai,Tamil Nadu,Potato,Vegetable,48.78,75.71,36.51,3.59,MEDIUM,HIGH_DEMAND
+2026-01-31,Hyderabad,Telangana,Potato,Vegetable,92.24,69.94,27.08,-12.26,MEDIUM,HIGH_SUPPLY
+2026-01-31,Hyderabad,Telangana,Tomato,Vegetable,24.52,84.19,44.79,-9.52,HIGH,HIGH_DEMAND_LOW_SUPPLY
+2026-02-01,Chennai,Tamil Nadu,Mango,Fruit,42.81,76.57,94.31,4.11,HIGH,HIGH_DEMAND
+2026-02-01,Hyderabad,Telangana,Tomato,Vegetable,63.82,72.88,38.95,-2.29,HIGH,HIGH_DEMAND
+2026-02-02,Hyderabad,Telangana,Banana,Fruit,70.09,57.76,39.53,13.27,MEDIUM,NORMAL
+2026-02-02,Mysore,Karnataka,Spinach,Leafy Vegetable,78.51,52.91,22.0,-9.09,HIGH,HIGH_SUPPLY
+2026-02-03,Bangalore,Karnataka,Onion,Vegetable,54.75,94.05,35.03,-8.64,LOW,HIGH_DEMAND
+2026-02-03,Hyderabad,Telangana,Mango,Fruit,40.82,32.94,87.54,-14.34,HIGH,NORMAL
+2026-02-03,Hyderabad,Telangana,Potato,Vegetable,92.26,66.83,26.69,-2.2,MEDIUM,HIGH_SUPPLY
+2026-02-03,Hyderabad,Telangana,Spinach,Leafy Vegetable,66.97,35.35,17.92,-1.38,HIGH,NORMAL
+2026-02-03,Mysore,Karnataka,Tomato,Vegetable,42.29,41.28,38.44,-1.26,HIGH,NORMAL
+2026-02-04,Bangalore,Karnataka,Spinach,Leafy Vegetable,51.94,55.55,28.13,-13.84,MEDIUM,NORMAL
+2026-02-04,Chennai,Tamil Nadu,Banana,Fruit,49.07,30.57,41.61,15.91,MEDIUM,NORMAL
+2026-02-04,Hyderabad,Telangana,Spinach,Leafy Vegetable,20.81,97.43,34.74,-7.51,HIGH,HIGH_DEMAND_LOW_SUPPLY
+2026-02-04,Hyderabad,Telangana,Tomato,Vegetable,58.75,83.3,43.72,-14.27,HIGH,HIGH_DEMAND
+2026-02-05,Chennai,Tamil Nadu,Banana,Fruit,68.67,80.02,44.98,19.37,HIGH,HIGH_DEMAND
+2026-02-05,Hyderabad,Telangana,Banana,Fruit,90.9,53.59,44.49,-10.72,MEDIUM,HIGH_SUPPLY
+2026-02-05,Hyderabad,Telangana,Spinach,Leafy Vegetable,68.37,63.65,21.04,-1.69,MEDIUM,NORMAL
+2026-02-05,Mysore,Karnataka,Banana,Fruit,87.4,88.7,51.4,16.7,MEDIUM,HIGH_SUPPLY
+2026-02-05,Mysore,Karnataka,Mango,Fruit,83.66,43.92,88.16,19.24,MEDIUM,HIGH_SUPPLY
+2026-02-05,Mysore,Karnataka,Mango,Fruit,22.28,74.39,97.24,-0.3,MEDIUM,HIGH_DEMAND
+2026-02-05,Mysore,Karnataka,Mango,Fruit,75.44,78.83,88.89,19.22,MEDIUM,HIGH_SUPPLY
+2026-02-05,Mysore,Karnataka,Spinach,Leafy Vegetable,59.09,47.43,19.81,-7.71,HIGH,NORMAL
+2026-02-06,Hyderabad,Telangana,Onion,Vegetable,69.84,41.33,27.04,-7.08,MEDIUM,NORMAL
+2026-02-06,Mysore,Karnataka,Onion,Vegetable,38.54,89.55,36.46,13.82,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-02-07,Bangalore,Karnataka,Tomato,Vegetable,82.42,31.32,30.06,-7.18,HIGH,HIGH_SUPPLY
+2026-02-07,Chennai,Tamil Nadu,Banana,Fruit,53.07,66.56,50.54,16.47,MEDIUM,NORMAL
+2026-02-07,Chennai,Tamil Nadu,Tomato,Vegetable,79.9,62.96,28.5,14.73,HIGH,HIGH_SUPPLY
+2026-02-07,Hyderabad,Telangana,Onion,Vegetable,59.92,79.9,29.82,-13.15,LOW,HIGH_DEMAND
+2026-02-07,Mysore,Karnataka,Spinach,Leafy Vegetable,49.4,38.26,21.81,1.18,MEDIUM,NORMAL
+2026-02-08,Chennai,Tamil Nadu,Tomato,Vegetable,63.49,68.71,40.72,-0.38,MEDIUM,NORMAL
+2026-02-08,Hyderabad,Telangana,Potato,Vegetable,51.97,62.83,31.96,10.65,MEDIUM,NORMAL
+2026-02-09,Bangalore,Karnataka,Potato,Vegetable,67.89,61.44,23.31,19.48,LOW,NORMAL
+2026-02-09,Hyderabad,Telangana,Banana,Fruit,24.4,99.71,58.93,14.37,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-02-10,Bangalore,Karnataka,Mango,Fruit,62.96,63.4,88.7,-3.16,HIGH,NORMAL
+2026-02-10,Bangalore,Karnataka,Mango,Fruit,87.2,75.85,91.19,17.45,MEDIUM,HIGH_SUPPLY
+2026-02-10,Bangalore,Karnataka,Onion,Vegetable,45.23,75.98,37.02,11.35,LOW,HIGH_DEMAND
+2026-02-10,Chennai,Tamil Nadu,Tomato,Vegetable,67.85,49.25,34.7,-1.82,HIGH,NORMAL
+2026-02-10,Mysore,Karnataka,Mango,Fruit,63.43,86.13,92.78,15.32,MEDIUM,HIGH_DEMAND
+2026-02-10,Mysore,Karnataka,Onion,Vegetable,75.49,82.8,30.53,-11.16,MEDIUM,HIGH_SUPPLY
+2026-02-12,Bangalore,Karnataka,Mango,Fruit,71.83,30.4,81.06,0.4,HIGH,NORMAL
+2026-02-12,Hyderabad,Telangana,Spinach,Leafy Vegetable,61.35,34.84,20.34,-7.83,HIGH,NORMAL
+2026-02-12,Mysore,Karnataka,Potato,Vegetable,85.37,80.15,28.04,-7.51,LOW,HIGH_SUPPLY
+2026-02-13,Bangalore,Karnataka,Potato,Vegetable,72.77,66.19,27.52,6.71,MEDIUM,NORMAL
+2026-02-13,Bangalore,Karnataka,Tomato,Vegetable,24.37,44.14,32.81,-12.15,HIGH,NORMAL
+2026-02-13,Chennai,Tamil Nadu,Onion,Vegetable,70.81,44.57,25.11,2.02,MEDIUM,NORMAL
+2026-02-13,Chennai,Tamil Nadu,Onion,Vegetable,41.64,56.44,31.95,-3.22,MEDIUM,NORMAL
+2026-02-13,Chennai,Tamil Nadu,Potato,Vegetable,85.48,58.61,25.66,19.51,LOW,HIGH_SUPPLY
+2026-02-13,Hyderabad,Telangana,Mango,Fruit,61.13,59.81,92.97,-13.21,MEDIUM,NORMAL
+2026-02-13,Mysore,Karnataka,Mango,Fruit,27.64,58.37,95.94,-0.02,HIGH,NORMAL
+2026-02-14,Bangalore,Karnataka,Banana,Fruit,84.36,50.89,37.82,12.97,HIGH,HIGH_SUPPLY
+2026-02-14,Bangalore,Karnataka,Onion,Vegetable,63.97,48.08,25.84,4.8,LOW,NORMAL
+2026-02-14,Chennai,Tamil Nadu,Banana,Fruit,40.32,42.28,42.02,-14.86,HIGH,NORMAL
+2026-02-15,Chennai,Tamil Nadu,Mango,Fruit,81.53,96.34,98.73,-10.26,MEDIUM,HIGH_SUPPLY
+2026-02-15,Hyderabad,Telangana,Mango,Fruit,90.41,83.49,94.13,15.23,HIGH,HIGH_SUPPLY
+2026-02-15,Hyderabad,Telangana,Potato,Vegetable,98.44,56.54,26.06,14.79,LOW,HIGH_SUPPLY
+2026-02-15,Hyderabad,Telangana,Tomato,Vegetable,55.28,83.26,36.94,10.97,MEDIUM,HIGH_DEMAND
+2026-02-15,Mysore,Karnataka,Banana,Fruit,62.74,48.89,37.93,14.14,MEDIUM,NORMAL
+2026-02-16,Bangalore,Karnataka,Banana,Fruit,91.92,60.43,37.86,7.67,MEDIUM,HIGH_SUPPLY
+2026-02-16,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,30.64,98.42,33.46,11.48,HIGH,HIGH_DEMAND_LOW_SUPPLY
+2026-02-16,Hyderabad,Telangana,Tomato,Vegetable,78.17,74.21,30.69,-10.6,MEDIUM,HIGH_SUPPLY
+2026-02-16,Hyderabad,Telangana,Tomato,Vegetable,80.5,93.88,42.33,7.27,HIGH,HIGH_SUPPLY
+2026-02-16,Mysore,Karnataka,Mango,Fruit,29.46,50.14,90.45,14.0,MEDIUM,NORMAL
+2026-02-17,Bangalore,Karnataka,Banana,Fruit,54.1,88.91,54.61,3.1,MEDIUM,HIGH_DEMAND
+2026-02-17,Mysore,Karnataka,Potato,Vegetable,69.92,87.58,30.53,-9.85,MEDIUM,HIGH_DEMAND
+2026-02-17,Mysore,Karnataka,Potato,Vegetable,52.11,34.86,23.6,-10.26,MEDIUM,NORMAL
+2026-02-17,Mysore,Karnataka,Potato,Vegetable,41.62,39.12,28.07,0.66,MEDIUM,NORMAL
+2026-02-18,Bangalore,Karnataka,Mango,Fruit,95.72,85.08,87.32,10.25,MEDIUM,HIGH_SUPPLY
+2026-02-19,Chennai,Tamil Nadu,Mango,Fruit,70.92,99.53,99.48,-12.21,MEDIUM,HIGH_DEMAND
+2026-02-19,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,20.56,55.96,30.61,12.76,MEDIUM,NORMAL
+2026-02-19,Mysore,Karnataka,Banana,Fruit,93.7,80.08,43.04,9.76,HIGH,HIGH_SUPPLY
+2026-02-19,Mysore,Karnataka,Tomato,Vegetable,57.43,73.74,40.19,19.89,HIGH,HIGH_DEMAND
+2026-02-20,Bangalore,Karnataka,Spinach,Leafy Vegetable,49.72,66.35,32.95,17.09,MEDIUM,NORMAL
+2026-02-20,Chennai,Tamil Nadu,Potato,Vegetable,72.47,79.86,28.93,17.68,LOW,HIGH_DEMAND
+2026-02-20,Mysore,Karnataka,Tomato,Vegetable,82.09,74.58,30.64,6.43,MEDIUM,HIGH_SUPPLY
+2026-02-21,Bangalore,Karnataka,Banana,Fruit,64.67,58.05,40.72,-2.88,MEDIUM,NORMAL
+2026-02-21,Bangalore,Karnataka,Mango,Fruit,66.12,34.27,88.24,12.64,HIGH,NORMAL
+2026-02-21,Chennai,Tamil Nadu,Tomato,Vegetable,74.28,69.59,39.73,18.12,HIGH,NORMAL
+2026-02-21,Mysore,Karnataka,Spinach,Leafy Vegetable,95.97,75.85,26.35,-8.94,MEDIUM,HIGH_SUPPLY
+2026-02-21,Mysore,Karnataka,Spinach,Leafy Vegetable,47.01,32.09,22.04,9.83,MEDIUM,NORMAL
+2026-02-22,Chennai,Tamil Nadu,Potato,Vegetable,44.64,54.91,28.91,11.69,LOW,NORMAL
+2026-02-22,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,75.03,84.36,24.38,15.7,HIGH,HIGH_SUPPLY
+2026-02-22,Hyderabad,Telangana,Onion,Vegetable,29.04,80.8,36.73,0.14,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-02-22,Mysore,Karnataka,Mango,Fruit,45.36,98.11,95.56,18.27,HIGH,HIGH_DEMAND
+2026-02-22,Mysore,Karnataka,Onion,Vegetable,45.81,53.69,33.69,-10.65,LOW,NORMAL
+2026-02-23,Bangalore,Karnataka,Onion,Vegetable,63.61,45.24,30.6,5.67,LOW,NORMAL
+2026-02-23,Bangalore,Karnataka,Onion,Vegetable,59.19,91.05,40.23,-3.06,MEDIUM,HIGH_DEMAND
+2026-02-23,Hyderabad,Telangana,Mango,Fruit,60.0,98.64,97.53,5.51,HIGH,HIGH_DEMAND
+2026-02-23,Hyderabad,Telangana,Potato,Vegetable,70.44,71.67,29.21,-8.31,MEDIUM,HIGH_DEMAND
+2026-02-24,Chennai,Tamil Nadu,Onion,Vegetable,88.72,74.74,30.83,13.07,MEDIUM,HIGH_SUPPLY
+2026-02-24,Hyderabad,Telangana,Onion,Vegetable,91.67,73.9,27.17,1.98,LOW,HIGH_SUPPLY
+2026-02-24,Mysore,Karnataka,Banana,Fruit,49.16,60.39,44.56,18.81,MEDIUM,NORMAL
+2026-02-25,Bangalore,Karnataka,Onion,Vegetable,52.07,80.82,37.3,18.73,LOW,HIGH_DEMAND
+2026-02-25,Chennai,Tamil Nadu,Onion,Vegetable,41.57,40.21,33.15,-4.94,MEDIUM,NORMAL
+2026-02-25,Hyderabad,Telangana,Mango,Fruit,84.24,47.66,81.76,11.63,HIGH,HIGH_SUPPLY
+2026-02-25,Mysore,Karnataka,Potato,Vegetable,22.51,51.74,29.89,19.13,LOW,NORMAL
+2026-02-26,Bangalore,Karnataka,Mango,Fruit,83.5,47.26,86.7,10.21,HIGH,HIGH_SUPPLY
+2026-02-26,Chennai,Tamil Nadu,Mango,Fruit,45.99,75.4,94.02,-3.17,HIGH,HIGH_DEMAND
+2026-02-26,Hyderabad,Telangana,Spinach,Leafy Vegetable,80.34,35.15,18.48,-7.21,HIGH,HIGH_SUPPLY
+2026-02-26,Hyderabad,Telangana,Spinach,Leafy Vegetable,97.53,60.0,17.83,2.28,MEDIUM,HIGH_SUPPLY
+2026-02-27,Bangalore,Karnataka,Spinach,Leafy Vegetable,85.79,33.1,15.6,1.21,MEDIUM,HIGH_SUPPLY
+2026-02-27,Chennai,Tamil Nadu,Mango,Fruit,78.91,78.88,94.9,-3.84,MEDIUM,HIGH_SUPPLY
+2026-02-27,Hyderabad,Telangana,Spinach,Leafy Vegetable,95.53,52.34,18.84,-0.67,HIGH,HIGH_SUPPLY
+2026-02-27,Mysore,Karnataka,Mango,Fruit,87.58,88.72,95.58,16.98,MEDIUM,HIGH_SUPPLY
+2026-02-27,Mysore,Karnataka,Onion,Vegetable,84.2,64.67,27.89,-14.7,LOW,HIGH_SUPPLY
+2026-02-28,Bangalore,Karnataka,Mango,Fruit,23.1,97.31,99.13,1.28,HIGH,HIGH_DEMAND_LOW_SUPPLY
+2026-02-28,Chennai,Tamil Nadu,Potato,Vegetable,92.08,87.95,31.8,15.25,LOW,HIGH_SUPPLY
+2026-02-28,Chennai,Tamil Nadu,Tomato,Vegetable,66.85,86.09,38.58,4.73,MEDIUM,HIGH_DEMAND
+2026-03-01,Chennai,Tamil Nadu,Tomato,Vegetable,61.33,52.87,35.86,-11.53,HIGH,NORMAL
+2026-03-01,Hyderabad,Telangana,Onion,Vegetable,61.07,30.91,22.13,7.74,LOW,NORMAL
+2026-03-01,Mysore,Karnataka,Spinach,Leafy Vegetable,50.71,63.07,31.51,9.68,MEDIUM,NORMAL
+2026-03-01,Mysore,Karnataka,Tomato,Vegetable,95.98,55.86,30.68,15.99,HIGH,HIGH_SUPPLY
+2026-03-02,Bangalore,Karnataka,Banana,Fruit,88.76,42.25,41.18,-11.75,MEDIUM,HIGH_SUPPLY
+2026-03-03,Chennai,Tamil Nadu,Tomato,Vegetable,34.96,92.35,48.42,19.87,HIGH,HIGH_DEMAND_LOW_SUPPLY
+2026-03-03,Chennai,Tamil Nadu,Tomato,Vegetable,31.97,48.29,36.89,12.65,HIGH,NORMAL
+2026-03-03,Hyderabad,Telangana,Onion,Vegetable,28.93,97.79,42.86,-3.0,LOW,HIGH_DEMAND_LOW_SUPPLY
+2026-03-03,Hyderabad,Telangana,Potato,Vegetable,30.36,83.33,42.09,13.22,LOW,HIGH_DEMAND_LOW_SUPPLY
+2026-03-03,Mysore,Karnataka,Banana,Fruit,33.6,53.26,52.17,4.15,MEDIUM,NORMAL
+2026-03-03,Mysore,Karnataka,Banana,Fruit,48.36,59.36,43.96,0.29,HIGH,NORMAL
+2026-03-03,Mysore,Karnataka,Spinach,Leafy Vegetable,32.67,39.59,28.48,-6.9,MEDIUM,NORMAL
+2026-03-04,Chennai,Tamil Nadu,Potato,Vegetable,99.08,60.53,26.39,-11.42,LOW,HIGH_SUPPLY
+2026-03-04,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,25.27,99.55,36.56,13.53,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-03-04,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,96.83,30.55,18.42,15.14,MEDIUM,HIGH_SUPPLY
+2026-03-04,Hyderabad,Telangana,Mango,Fruit,61.97,35.16,83.52,-0.76,MEDIUM,NORMAL
+2026-03-04,Mysore,Karnataka,Mango,Fruit,68.5,80.08,94.84,16.44,MEDIUM,HIGH_DEMAND
+2026-03-04,Mysore,Karnataka,Spinach,Leafy Vegetable,87.44,99.89,24.72,15.58,HIGH,HIGH_SUPPLY
+2026-03-05,Bangalore,Karnataka,Onion,Vegetable,31.95,86.72,40.22,-6.77,LOW,HIGH_DEMAND_LOW_SUPPLY
+2026-03-05,Hyderabad,Telangana,Mango,Fruit,27.11,70.15,99.95,4.52,HIGH,HIGH_DEMAND
+2026-03-05,Hyderabad,Telangana,Mango,Fruit,47.8,80.2,100.89,18.69,MEDIUM,HIGH_DEMAND
+2026-03-05,Hyderabad,Telangana,Onion,Vegetable,94.78,41.62,22.66,10.48,LOW,HIGH_SUPPLY
+2026-03-05,Mysore,Karnataka,Onion,Vegetable,76.94,84.26,29.99,16.14,MEDIUM,HIGH_SUPPLY
+2026-03-06,Chennai,Tamil Nadu,Banana,Fruit,97.1,35.06,34.39,-12.62,HIGH,HIGH_SUPPLY
+2026-03-06,Hyderabad,Telangana,Spinach,Leafy Vegetable,71.37,89.57,34.14,5.97,HIGH,HIGH_DEMAND
+2026-03-07,Bangalore,Karnataka,Banana,Fruit,29.0,80.43,52.77,-8.88,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-03-07,Bangalore,Karnataka,Mango,Fruit,73.09,96.4,95.8,11.25,MEDIUM,HIGH_DEMAND
+2026-03-07,Hyderabad,Telangana,Potato,Vegetable,20.03,98.13,43.62,15.65,LOW,HIGH_DEMAND_LOW_SUPPLY
+2026-03-07,Hyderabad,Telangana,Potato,Vegetable,63.16,86.95,36.63,6.85,MEDIUM,HIGH_DEMAND
+2026-03-07,Mysore,Karnataka,Onion,Vegetable,55.3,43.18,26.02,-7.45,MEDIUM,NORMAL
+2026-03-08,Bangalore,Karnataka,Mango,Fruit,31.01,76.5,95.76,-0.76,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-03-08,Bangalore,Karnataka,Potato,Vegetable,76.8,79.1,28.73,-12.44,LOW,HIGH_SUPPLY
+2026-03-08,Chennai,Tamil Nadu,Tomato,Vegetable,41.11,42.51,32.8,-13.55,MEDIUM,NORMAL
+2026-03-08,Mysore,Karnataka,Banana,Fruit,66.35,82.92,52.34,-12.79,HIGH,HIGH_DEMAND
+2026-03-08,Mysore,Karnataka,Tomato,Vegetable,82.06,43.01,29.59,-1.14,MEDIUM,HIGH_SUPPLY
+2026-03-09,Bangalore,Karnataka,Banana,Fruit,39.49,98.53,51.4,3.66,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-03-09,Mysore,Karnataka,Spinach,Leafy Vegetable,86.7,72.47,26.84,-3.75,HIGH,HIGH_SUPPLY
+2026-03-10,Bangalore,Karnataka,Tomato,Vegetable,91.19,33.27,23.15,2.64,HIGH,HIGH_SUPPLY
+2026-03-10,Hyderabad,Telangana,Onion,Vegetable,51.26,38.23,25.93,13.1,LOW,NORMAL
+2026-03-10,Hyderabad,Telangana,Potato,Vegetable,77.31,55.59,23.6,-3.05,LOW,HIGH_SUPPLY
+2026-03-10,Hyderabad,Telangana,Tomato,Vegetable,75.02,97.73,43.37,2.92,MEDIUM,HIGH_SUPPLY
+2026-03-11,Bangalore,Karnataka,Onion,Vegetable,54.89,37.44,26.77,0.48,MEDIUM,NORMAL
+2026-03-11,Mysore,Karnataka,Potato,Vegetable,51.85,31.76,23.22,12.73,MEDIUM,NORMAL
+2026-03-12,Bangalore,Karnataka,Mango,Fruit,54.46,82.79,93.52,3.87,HIGH,HIGH_DEMAND
+2026-03-12,Hyderabad,Telangana,Mango,Fruit,58.81,87.41,96.87,7.18,MEDIUM,HIGH_DEMAND
+2026-03-13,Chennai,Tamil Nadu,Potato,Vegetable,20.77,80.61,37.48,14.16,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-03-14,Bangalore,Karnataka,Spinach,Leafy Vegetable,52.29,31.33,25.72,1.88,HIGH,NORMAL
+2026-03-14,Chennai,Tamil Nadu,Banana,Fruit,66.35,43.99,43.91,-0.29,HIGH,NORMAL
+2026-03-14,Chennai,Tamil Nadu,Onion,Vegetable,58.7,53.98,32.6,0.52,LOW,NORMAL
+2026-03-14,Mysore,Karnataka,Tomato,Vegetable,37.54,43.76,35.58,-3.41,HIGH,NORMAL
+2026-03-15,Chennai,Tamil Nadu,Onion,Vegetable,98.8,51.94,20.11,4.06,LOW,HIGH_SUPPLY
+2026-03-15,Hyderabad,Telangana,Banana,Fruit,51.16,48.7,40.83,-7.14,MEDIUM,NORMAL
+2026-03-15,Hyderabad,Telangana,Tomato,Vegetable,21.63,92.83,51.28,-14.4,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-03-15,Mysore,Karnataka,Banana,Fruit,35.73,49.31,48.35,14.21,HIGH,NORMAL
+2026-03-15,Mysore,Karnataka,Spinach,Leafy Vegetable,91.03,56.85,19.72,13.9,MEDIUM,HIGH_SUPPLY
+2026-03-15,Mysore,Karnataka,Tomato,Vegetable,29.62,43.82,39.77,-12.6,HIGH,NORMAL
+2026-03-16,Chennai,Tamil Nadu,Onion,Vegetable,36.39,73.37,39.66,1.55,MEDIUM,HIGH_DEMAND
+2026-03-16,Chennai,Tamil Nadu,Tomato,Vegetable,97.8,59.26,32.14,-5.33,HIGH,HIGH_SUPPLY
+2026-03-16,Hyderabad,Telangana,Mango,Fruit,48.81,35.6,87.07,18.98,MEDIUM,NORMAL
+2026-03-16,Hyderabad,Telangana,Potato,Vegetable,99.9,93.84,31.58,-3.35,LOW,HIGH_SUPPLY
+2026-03-16,Mysore,Karnataka,Onion,Vegetable,35.98,53.73,31.58,9.52,LOW,NORMAL
+2026-03-17,Bangalore,Karnataka,Mango,Fruit,50.76,38.29,91.31,-2.86,HIGH,NORMAL
+2026-03-17,Chennai,Tamil Nadu,Banana,Fruit,52.18,67.35,48.81,19.87,MEDIUM,NORMAL
+2026-03-17,Chennai,Tamil Nadu,Onion,Vegetable,31.5,77.04,35.32,-5.44,LOW,HIGH_DEMAND_LOW_SUPPLY
+2026-03-17,Chennai,Tamil Nadu,Potato,Vegetable,53.29,92.48,32.87,-2.61,MEDIUM,HIGH_DEMAND
+2026-03-17,Hyderabad,Telangana,Onion,Vegetable,46.55,36.25,28.5,16.87,LOW,NORMAL
+2026-03-18,Hyderabad,Telangana,Mango,Fruit,83.68,67.78,83.98,2.94,MEDIUM,HIGH_SUPPLY
+2026-03-18,Mysore,Karnataka,Banana,Fruit,73.46,63.93,43.81,-4.39,HIGH,NORMAL
+2026-03-18,Mysore,Karnataka,Banana,Fruit,21.43,69.88,54.04,12.42,MEDIUM,NORMAL
+2026-03-19,Chennai,Tamil Nadu,Banana,Fruit,72.84,43.04,42.89,14.83,HIGH,NORMAL
+2026-03-19,Mysore,Karnataka,Onion,Vegetable,54.58,91.03,42.04,-10.76,LOW,HIGH_DEMAND
+2026-03-20,Chennai,Tamil Nadu,Mango,Fruit,53.43,85.8,92.75,-2.94,MEDIUM,HIGH_DEMAND
+2026-03-20,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,30.39,94.52,37.74,16.83,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-03-20,Hyderabad,Telangana,Onion,Vegetable,40.41,70.39,34.91,5.8,MEDIUM,HIGH_DEMAND
+2026-03-20,Mysore,Karnataka,Mango,Fruit,85.29,93.78,90.17,1.04,MEDIUM,HIGH_SUPPLY
+2026-03-20,Mysore,Karnataka,Tomato,Vegetable,62.24,39.6,27.3,3.28,MEDIUM,NORMAL
+2026-03-21,Bangalore,Karnataka,Onion,Vegetable,30.83,46.86,31.74,3.84,MEDIUM,NORMAL
+2026-03-21,Chennai,Tamil Nadu,Mango,Fruit,23.61,58.82,98.26,-14.31,MEDIUM,NORMAL
+2026-03-21,Hyderabad,Telangana,Potato,Vegetable,37.03,82.84,39.26,8.47,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-03-21,Hyderabad,Telangana,Spinach,Leafy Vegetable,95.34,48.95,22.49,15.39,MEDIUM,HIGH_SUPPLY
+2026-03-21,Hyderabad,Telangana,Spinach,Leafy Vegetable,37.48,95.31,34.59,19.83,HIGH,HIGH_DEMAND_LOW_SUPPLY
+2026-03-22,Chennai,Tamil Nadu,Banana,Fruit,66.0,52.58,46.02,18.35,HIGH,NORMAL
+2026-03-22,Chennai,Tamil Nadu,Banana,Fruit,35.76,87.87,57.73,2.43,HIGH,HIGH_DEMAND_LOW_SUPPLY
+2026-03-22,Chennai,Tamil Nadu,Potato,Vegetable,97.33,61.91,26.69,2.12,MEDIUM,HIGH_SUPPLY
+2026-03-22,Hyderabad,Telangana,Spinach,Leafy Vegetable,60.8,90.73,34.34,-9.81,MEDIUM,HIGH_DEMAND
+2026-03-22,Mysore,Karnataka,Spinach,Leafy Vegetable,50.28,80.08,35.21,-12.9,HIGH,HIGH_DEMAND
+2026-03-22,Mysore,Karnataka,Tomato,Vegetable,65.22,32.49,30.97,14.86,MEDIUM,NORMAL
+2026-03-23,Mysore,Karnataka,Spinach,Leafy Vegetable,52.52,44.96,20.39,9.15,HIGH,NORMAL
+2026-03-24,Chennai,Tamil Nadu,Banana,Fruit,74.8,57.34,47.47,9.03,MEDIUM,NORMAL
+2026-03-24,Chennai,Tamil Nadu,Tomato,Vegetable,21.76,87.8,44.82,0.04,HIGH,HIGH_DEMAND_LOW_SUPPLY
+2026-03-25,Bangalore,Karnataka,Onion,Vegetable,57.83,49.57,33.33,13.98,MEDIUM,NORMAL
+2026-03-25,Chennai,Tamil Nadu,Banana,Fruit,63.78,35.42,37.42,8.23,HIGH,NORMAL
+2026-03-25,Hyderabad,Telangana,Mango,Fruit,69.61,57.34,92.42,-3.72,MEDIUM,NORMAL
+2026-03-26,Mysore,Karnataka,Spinach,Leafy Vegetable,62.24,97.67,35.4,-2.08,MEDIUM,HIGH_DEMAND
+2026-03-27,Hyderabad,Telangana,Mango,Fruit,45.71,58.45,94.0,19.97,HIGH,NORMAL
+2026-03-27,Mysore,Karnataka,Banana,Fruit,68.97,46.31,44.76,19.44,MEDIUM,NORMAL
+2026-03-27,Mysore,Karnataka,Onion,Vegetable,65.6,86.0,32.2,18.1,MEDIUM,HIGH_DEMAND
+2026-03-29,Bangalore,Karnataka,Onion,Vegetable,97.64,88.21,28.43,-3.97,LOW,HIGH_SUPPLY
+2026-03-29,Hyderabad,Telangana,Mango,Fruit,89.92,78.36,88.01,4.62,MEDIUM,HIGH_SUPPLY
+2026-03-29,Mysore,Karnataka,Onion,Vegetable,70.88,94.86,36.57,-10.89,LOW,HIGH_DEMAND
+2026-03-30,Bangalore,Karnataka,Onion,Vegetable,64.21,53.98,33.2,-3.31,LOW,NORMAL
+2026-03-30,Bangalore,Karnataka,Spinach,Leafy Vegetable,33.37,77.97,32.83,7.66,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-03-30,Mysore,Karnataka,Mango,Fruit,44.09,65.5,98.24,-12.62,HIGH,NORMAL
+2026-03-31,Bangalore,Karnataka,Onion,Vegetable,49.24,36.47,25.36,2.84,MEDIUM,NORMAL
+2026-03-31,Bangalore,Karnataka,Spinach,Leafy Vegetable,54.54,58.89,22.94,17.58,HIGH,NORMAL
+2026-03-31,Chennai,Tamil Nadu,Banana,Fruit,41.18,79.87,52.07,0.62,HIGH,HIGH_DEMAND
+2026-03-31,Chennai,Tamil Nadu,Banana,Fruit,88.47,34.89,37.13,-8.34,MEDIUM,HIGH_SUPPLY
+2026-03-31,Hyderabad,Telangana,Banana,Fruit,49.38,72.5,49.05,14.26,MEDIUM,HIGH_DEMAND
+2026-03-31,Hyderabad,Telangana,Potato,Vegetable,95.82,35.81,18.8,13.65,LOW,HIGH_SUPPLY
+2026-03-31,Hyderabad,Telangana,Tomato,Vegetable,93.92,88.56,38.84,19.97,MEDIUM,HIGH_SUPPLY
+2026-03-31,Mysore,Karnataka,Banana,Fruit,66.85,93.68,46.56,-0.74,MEDIUM,HIGH_DEMAND
+2026-04-01,Bangalore,Karnataka,Tomato,Vegetable,35.32,65.27,40.72,14.81,HIGH,NORMAL
+2026-04-01,Chennai,Tamil Nadu,Mango,Fruit,88.07,42.77,82.81,5.02,MEDIUM,HIGH_SUPPLY
+2026-04-01,Chennai,Tamil Nadu,Tomato,Vegetable,23.29,63.4,45.86,3.35,MEDIUM,NORMAL
+2026-04-02,Chennai,Tamil Nadu,Onion,Vegetable,83.41,87.37,29.08,-1.72,LOW,HIGH_SUPPLY
+2026-04-02,Hyderabad,Telangana,Spinach,Leafy Vegetable,47.46,35.33,18.4,-4.26,MEDIUM,NORMAL
+2026-04-02,Mysore,Karnataka,Onion,Vegetable,73.9,75.99,34.03,9.54,LOW,HIGH_DEMAND
+2026-04-03,Bangalore,Karnataka,Spinach,Leafy Vegetable,57.52,49.35,27.88,-2.1,HIGH,NORMAL
+2026-04-03,Mysore,Karnataka,Spinach,Leafy Vegetable,72.08,70.37,29.29,8.8,MEDIUM,HIGH_DEMAND
+2026-04-03,Mysore,Karnataka,Tomato,Vegetable,80.82,36.39,29.54,2.58,HIGH,HIGH_SUPPLY
+2026-04-04,Bangalore,Karnataka,Potato,Vegetable,52.37,37.88,29.92,6.61,MEDIUM,NORMAL
+2026-04-04,Bangalore,Karnataka,Spinach,Leafy Vegetable,22.93,60.88,31.91,-9.86,HIGH,NORMAL
+2026-04-04,Chennai,Tamil Nadu,Potato,Vegetable,48.97,58.45,26.83,-13.63,MEDIUM,NORMAL
+2026-04-04,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,25.56,85.77,39.66,-10.32,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-04-04,Mysore,Karnataka,Potato,Vegetable,95.22,81.53,30.98,14.06,LOW,HIGH_SUPPLY
+2026-04-04,Mysore,Karnataka,Spinach,Leafy Vegetable,92.28,60.44,19.29,1.15,HIGH,HIGH_SUPPLY
+2026-04-05,Bangalore,Karnataka,Tomato,Vegetable,32.46,48.44,32.35,15.54,MEDIUM,NORMAL
+2026-04-05,Chennai,Tamil Nadu,Mango,Fruit,40.91,79.94,94.58,8.56,MEDIUM,HIGH_DEMAND
+2026-04-05,Chennai,Tamil Nadu,Tomato,Vegetable,26.47,86.02,43.58,15.51,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-04-05,Hyderabad,Telangana,Mango,Fruit,55.64,88.63,97.75,4.61,MEDIUM,HIGH_DEMAND
+2026-04-05,Mysore,Karnataka,Potato,Vegetable,55.54,53.2,27.39,1.24,MEDIUM,NORMAL
+2026-04-06,Chennai,Tamil Nadu,Mango,Fruit,83.97,56.68,87.68,9.81,MEDIUM,HIGH_SUPPLY
+2026-04-06,Hyderabad,Telangana,Mango,Fruit,59.4,91.39,96.53,-14.49,HIGH,HIGH_DEMAND
+2026-04-07,Bangalore,Karnataka,Banana,Fruit,54.78,38.37,46.2,-14.84,HIGH,NORMAL
+2026-04-07,Chennai,Tamil Nadu,Onion,Vegetable,61.02,67.38,33.27,4.86,MEDIUM,NORMAL
+2026-04-07,Chennai,Tamil Nadu,Potato,Vegetable,93.08,47.67,16.48,17.93,LOW,HIGH_SUPPLY
+2026-04-07,Hyderabad,Telangana,Onion,Vegetable,52.91,49.15,27.11,18.6,MEDIUM,NORMAL
+2026-04-07,Hyderabad,Telangana,Spinach,Leafy Vegetable,76.5,93.65,25.88,-2.49,HIGH,HIGH_SUPPLY
+2026-04-07,Mysore,Karnataka,Potato,Vegetable,40.6,33.12,25.47,15.09,LOW,NORMAL
+2026-04-08,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,76.63,63.15,25.87,-6.03,MEDIUM,HIGH_SUPPLY
+2026-04-08,Hyderabad,Telangana,Banana,Fruit,29.79,42.11,50.61,17.88,MEDIUM,NORMAL
+2026-04-08,Mysore,Karnataka,Onion,Vegetable,58.31,88.73,35.43,-4.15,MEDIUM,HIGH_DEMAND
+2026-04-09,Bangalore,Karnataka,Tomato,Vegetable,53.51,60.01,32.91,2.05,MEDIUM,NORMAL
+2026-04-09,Bangalore,Karnataka,Tomato,Vegetable,89.78,36.32,22.74,2.32,MEDIUM,HIGH_SUPPLY
+2026-04-09,Chennai,Tamil Nadu,Mango,Fruit,63.39,68.4,92.38,-2.24,HIGH,NORMAL
+2026-04-09,Hyderabad,Telangana,Tomato,Vegetable,24.78,78.83,40.67,-4.75,HIGH,HIGH_DEMAND_LOW_SUPPLY
+2026-04-10,Bangalore,Karnataka,Tomato,Vegetable,79.32,91.02,42.77,-10.78,HIGH,HIGH_SUPPLY
+2026-04-10,Chennai,Tamil Nadu,Banana,Fruit,53.16,82.2,50.03,18.91,MEDIUM,HIGH_DEMAND
+2026-04-10,Hyderabad,Telangana,Spinach,Leafy Vegetable,99.96,56.28,14.96,-10.88,HIGH,HIGH_SUPPLY
+2026-04-11,Bangalore,Karnataka,Banana,Fruit,30.55,58.1,52.23,2.6,HIGH,NORMAL
+2026-04-11,Bangalore,Karnataka,Mango,Fruit,54.06,66.6,92.34,2.43,MEDIUM,NORMAL
+2026-04-11,Chennai,Tamil Nadu,Banana,Fruit,70.24,70.3,42.31,-10.07,MEDIUM,HIGH_DEMAND
+2026-04-12,Bangalore,Karnataka,Mango,Fruit,53.15,78.24,91.24,11.01,MEDIUM,HIGH_DEMAND
+2026-04-12,Chennai,Tamil Nadu,Tomato,Vegetable,89.45,56.7,35.17,7.18,HIGH,HIGH_SUPPLY
+2026-04-12,Mysore,Karnataka,Onion,Vegetable,26.22,96.34,41.2,3.3,LOW,HIGH_DEMAND_LOW_SUPPLY
+2026-04-12,Mysore,Karnataka,Tomato,Vegetable,88.11,47.82,27.49,12.9,MEDIUM,HIGH_SUPPLY
+2026-04-13,Hyderabad,Telangana,Banana,Fruit,34.43,33.94,39.68,14.33,HIGH,NORMAL
+2026-04-13,Hyderabad,Telangana,Banana,Fruit,53.87,89.15,55.92,-4.54,MEDIUM,HIGH_DEMAND
+2026-04-13,Hyderabad,Telangana,Onion,Vegetable,36.65,83.46,41.19,-8.18,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-04-13,Hyderabad,Telangana,Tomato,Vegetable,80.88,40.11,26.99,18.11,HIGH,HIGH_SUPPLY
+2026-04-14,Bangalore,Karnataka,Mango,Fruit,74.68,61.97,89.21,-13.56,HIGH,NORMAL
+2026-04-14,Hyderabad,Telangana,Mango,Fruit,31.2,84.46,97.32,3.57,HIGH,HIGH_DEMAND_LOW_SUPPLY
+2026-04-14,Mysore,Karnataka,Tomato,Vegetable,76.59,82.14,42.36,-4.24,MEDIUM,HIGH_SUPPLY
+2026-04-15,Bangalore,Karnataka,Banana,Fruit,77.06,52.9,42.92,4.06,MEDIUM,HIGH_SUPPLY
+2026-04-15,Bangalore,Karnataka,Mango,Fruit,34.05,68.52,94.45,10.94,MEDIUM,NORMAL
+2026-04-15,Hyderabad,Telangana,Mango,Fruit,66.42,51.33,91.7,-2.28,HIGH,NORMAL
+2026-04-15,Hyderabad,Telangana,Onion,Vegetable,95.42,88.81,29.5,-13.77,LOW,HIGH_SUPPLY
+2026-04-15,Hyderabad,Telangana,Tomato,Vegetable,49.98,90.79,40.17,2.56,HIGH,HIGH_DEMAND
+2026-04-15,Mysore,Karnataka,Banana,Fruit,23.15,77.58,49.75,14.09,HIGH,HIGH_DEMAND_LOW_SUPPLY
+2026-04-15,Mysore,Karnataka,Mango,Fruit,59.59,54.8,93.38,9.51,HIGH,NORMAL
+2026-04-15,Mysore,Karnataka,Potato,Vegetable,98.85,31.58,14.0,-10.65,LOW,HIGH_SUPPLY
+2026-04-16,Bangalore,Karnataka,Tomato,Vegetable,58.38,99.35,46.13,-14.56,HIGH,HIGH_DEMAND
+2026-04-16,Chennai,Tamil Nadu,Banana,Fruit,73.44,92.88,46.3,3.75,MEDIUM,HIGH_DEMAND
+2026-04-16,Chennai,Tamil Nadu,Onion,Vegetable,84.14,96.13,31.21,4.34,MEDIUM,HIGH_SUPPLY
+2026-04-16,Mysore,Karnataka,Spinach,Leafy Vegetable,76.88,45.07,19.55,7.65,MEDIUM,HIGH_SUPPLY
+2026-04-17,Bangalore,Karnataka,Onion,Vegetable,57.38,60.95,29.91,-10.26,MEDIUM,NORMAL
+2026-04-17,Mysore,Karnataka,Mango,Fruit,89.33,95.08,88.5,-6.98,HIGH,HIGH_SUPPLY
+2026-04-17,Mysore,Karnataka,Potato,Vegetable,64.9,76.7,31.68,2.96,MEDIUM,HIGH_DEMAND
+2026-04-17,Mysore,Karnataka,Tomato,Vegetable,63.96,58.37,30.73,8.64,HIGH,NORMAL
+2026-04-18,Chennai,Tamil Nadu,Mango,Fruit,24.54,33.36,90.18,-1.81,HIGH,NORMAL
+2026-04-18,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,54.17,89.62,28.3,-12.39,MEDIUM,HIGH_DEMAND
+2026-04-18,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,63.8,36.34,22.38,17.44,MEDIUM,NORMAL
+2026-04-19,Chennai,Tamil Nadu,Mango,Fruit,98.63,42.97,81.54,-8.32,HIGH,HIGH_SUPPLY
+2026-04-19,Chennai,Tamil Nadu,Potato,Vegetable,76.93,82.23,25.58,-4.73,LOW,HIGH_SUPPLY
+2026-04-19,Hyderabad,Telangana,Onion,Vegetable,28.31,43.54,35.6,7.06,LOW,NORMAL
+2026-04-20,Chennai,Tamil Nadu,Banana,Fruit,25.06,51.36,45.35,1.29,MEDIUM,NORMAL
+2026-04-20,Chennai,Tamil Nadu,Banana,Fruit,51.85,95.6,52.29,17.08,MEDIUM,HIGH_DEMAND
+2026-04-20,Hyderabad,Telangana,Banana,Fruit,99.66,60.87,38.09,-10.98,HIGH,HIGH_SUPPLY
+2026-04-20,Mysore,Karnataka,Banana,Fruit,49.45,73.33,48.33,3.4,MEDIUM,HIGH_DEMAND
+2026-04-20,Mysore,Karnataka,Potato,Vegetable,46.43,79.21,35.32,13.86,LOW,HIGH_DEMAND
+2026-04-22,Bangalore,Karnataka,Spinach,Leafy Vegetable,51.48,93.24,38.33,1.0,MEDIUM,HIGH_DEMAND
+2026-04-22,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,34.71,38.3,24.63,6.41,HIGH,NORMAL
+2026-04-22,Chennai,Tamil Nadu,Tomato,Vegetable,37.04,35.87,32.4,-8.35,HIGH,NORMAL
+2026-04-23,Hyderabad,Telangana,Mango,Fruit,82.3,37.98,86.03,14.18,HIGH,HIGH_SUPPLY
+2026-04-23,Hyderabad,Telangana,Potato,Vegetable,71.6,38.07,22.94,2.17,LOW,NORMAL
+2026-04-23,Hyderabad,Telangana,Spinach,Leafy Vegetable,98.58,45.26,18.76,-14.84,HIGH,HIGH_SUPPLY
+2026-04-23,Mysore,Karnataka,Tomato,Vegetable,41.46,37.87,37.93,0.59,MEDIUM,NORMAL
+2026-04-24,Chennai,Tamil Nadu,Tomato,Vegetable,68.29,49.78,35.7,4.69,MEDIUM,NORMAL
+2026-04-24,Hyderabad,Telangana,Onion,Vegetable,20.24,68.13,34.13,18.28,MEDIUM,NORMAL
+2026-04-24,Mysore,Karnataka,Banana,Fruit,64.01,51.32,44.56,-1.79,MEDIUM,NORMAL
+2026-04-25,Bangalore,Karnataka,Spinach,Leafy Vegetable,45.55,67.59,31.36,9.64,HIGH,NORMAL
+2026-04-25,Bangalore,Karnataka,Tomato,Vegetable,57.61,86.01,43.08,-3.63,HIGH,HIGH_DEMAND
+2026-04-25,Chennai,Tamil Nadu,Tomato,Vegetable,62.81,94.49,45.55,-12.54,HIGH,HIGH_DEMAND
+2026-04-25,Mysore,Karnataka,Onion,Vegetable,33.57,95.06,44.15,2.4,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-04-25,Mysore,Karnataka,Potato,Vegetable,85.06,50.5,26.76,16.29,MEDIUM,HIGH_SUPPLY
+2026-04-27,Chennai,Tamil Nadu,Mango,Fruit,38.37,80.43,101.03,5.48,HIGH,HIGH_DEMAND_LOW_SUPPLY
+2026-04-27,Hyderabad,Telangana,Banana,Fruit,73.17,35.25,42.43,-4.3,MEDIUM,NORMAL
+2026-04-27,Hyderabad,Telangana,Onion,Vegetable,88.04,32.38,22.97,-7.71,MEDIUM,HIGH_SUPPLY
+2026-04-27,Hyderabad,Telangana,Tomato,Vegetable,78.17,45.5,27.09,7.44,MEDIUM,HIGH_SUPPLY
+2026-04-27,Mysore,Karnataka,Potato,Vegetable,75.31,93.06,34.6,0.6,LOW,HIGH_SUPPLY
+2026-04-28,Bangalore,Karnataka,Banana,Fruit,45.93,87.6,48.86,-4.58,HIGH,HIGH_DEMAND
+2026-04-28,Bangalore,Karnataka,Mango,Fruit,31.08,90.13,101.93,-6.75,HIGH,HIGH_DEMAND_LOW_SUPPLY
+2026-04-28,Bangalore,Karnataka,Tomato,Vegetable,91.8,42.68,27.24,-13.42,HIGH,HIGH_SUPPLY
+2026-04-28,Chennai,Tamil Nadu,Banana,Fruit,59.21,99.23,51.7,-13.08,HIGH,HIGH_DEMAND
+2026-04-28,Hyderabad,Telangana,Spinach,Leafy Vegetable,77.52,61.78,22.68,8.74,MEDIUM,HIGH_SUPPLY
+2026-04-28,Mysore,Karnataka,Banana,Fruit,84.39,35.71,32.34,-1.78,MEDIUM,HIGH_SUPPLY
+2026-04-28,Mysore,Karnataka,Spinach,Leafy Vegetable,92.97,62.53,19.82,-11.73,HIGH,HIGH_SUPPLY
+2026-04-29,Hyderabad,Telangana,Spinach,Leafy Vegetable,34.11,40.23,28.77,-0.78,MEDIUM,NORMAL
+2026-04-30,Bangalore,Karnataka,Banana,Fruit,77.44,72.71,45.4,1.16,MEDIUM,HIGH_SUPPLY
+2026-04-30,Bangalore,Karnataka,Mango,Fruit,74.2,67.38,94.22,-4.03,HIGH,NORMAL
+2026-04-30,Bangalore,Karnataka,Mango,Fruit,37.61,68.7,99.44,-6.7,HIGH,NORMAL
+2026-04-30,Chennai,Tamil Nadu,Potato,Vegetable,48.53,43.36,29.63,1.62,MEDIUM,NORMAL
+2026-04-30,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,33.04,94.71,34.81,-3.04,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-04-30,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,31.23,72.53,30.98,19.6,MEDIUM,HIGH_DEMAND
+2026-04-30,Hyderabad,Telangana,Tomato,Vegetable,35.61,71.53,43.16,-7.89,HIGH,HIGH_DEMAND
+2026-05-01,Chennai,Tamil Nadu,Tomato,Vegetable,26.82,73.46,41.26,6.38,MEDIUM,HIGH_DEMAND
+2026-05-01,Mysore,Karnataka,Banana,Fruit,32.01,63.96,48.03,17.56,HIGH,NORMAL
+2026-05-01,Mysore,Karnataka,Onion,Vegetable,53.82,64.39,35.15,12.69,MEDIUM,NORMAL
+2026-05-02,Bangalore,Karnataka,Tomato,Vegetable,29.37,84.55,42.14,8.42,HIGH,HIGH_DEMAND_LOW_SUPPLY
+2026-05-02,Hyderabad,Telangana,Onion,Vegetable,30.97,46.04,32.48,-8.41,MEDIUM,NORMAL
+2026-05-03,Bangalore,Karnataka,Banana,Fruit,90.47,53.82,36.1,6.34,MEDIUM,HIGH_SUPPLY
+2026-05-03,Chennai,Tamil Nadu,Banana,Fruit,82.84,73.57,42.87,2.06,HIGH,HIGH_SUPPLY
+2026-05-03,Hyderabad,Telangana,Mango,Fruit,95.73,92.97,90.23,4.95,MEDIUM,HIGH_SUPPLY
+2026-05-03,Hyderabad,Telangana,Spinach,Leafy Vegetable,85.69,44.37,19.63,-7.4,HIGH,HIGH_SUPPLY
+2026-05-03,Hyderabad,Telangana,Spinach,Leafy Vegetable,76.34,85.68,25.66,-13.68,HIGH,HIGH_SUPPLY
+2026-05-03,Mysore,Karnataka,Mango,Fruit,98.05,33.47,75.36,-12.3,HIGH,HIGH_SUPPLY
+2026-05-04,Chennai,Tamil Nadu,Banana,Fruit,65.09,43.69,37.26,18.77,HIGH,NORMAL
+2026-05-04,Mysore,Karnataka,Mango,Fruit,85.61,75.35,91.48,2.68,HIGH,HIGH_SUPPLY
+2026-05-05,Bangalore,Karnataka,Banana,Fruit,45.78,49.38,46.87,-12.14,MEDIUM,NORMAL
+2026-05-05,Bangalore,Karnataka,Mango,Fruit,65.35,59.12,89.0,7.22,HIGH,NORMAL
+2026-05-05,Chennai,Tamil Nadu,Mango,Fruit,83.79,83.8,94.49,-13.41,MEDIUM,HIGH_SUPPLY
+2026-05-05,Hyderabad,Telangana,Tomato,Vegetable,53.68,79.45,35.34,19.93,MEDIUM,HIGH_DEMAND
+2026-05-06,Bangalore,Karnataka,Banana,Fruit,55.46,80.78,50.8,10.76,HIGH,HIGH_DEMAND
+2026-05-06,Bangalore,Karnataka,Mango,Fruit,81.05,44.65,83.1,-1.94,HIGH,HIGH_SUPPLY
+2026-05-06,Bangalore,Karnataka,Potato,Vegetable,53.42,57.43,31.46,10.76,LOW,NORMAL
+2026-05-06,Chennai,Tamil Nadu,Mango,Fruit,78.89,81.49,91.56,-2.86,HIGH,HIGH_SUPPLY
+2026-05-06,Hyderabad,Telangana,Onion,Vegetable,37.27,39.02,30.35,-4.63,LOW,NORMAL
+2026-05-06,Mysore,Karnataka,Banana,Fruit,33.88,48.68,50.43,-2.4,MEDIUM,NORMAL
+2026-05-06,Mysore,Karnataka,Onion,Vegetable,97.92,46.27,25.94,-14.31,MEDIUM,HIGH_SUPPLY
+2026-05-07,Bangalore,Karnataka,Spinach,Leafy Vegetable,92.11,56.71,16.38,15.07,MEDIUM,HIGH_SUPPLY
+2026-05-07,Hyderabad,Telangana,Potato,Vegetable,29.78,85.85,35.34,14.64,LOW,HIGH_DEMAND_LOW_SUPPLY
+2026-05-07,Hyderabad,Telangana,Spinach,Leafy Vegetable,87.56,99.33,29.23,16.81,HIGH,HIGH_SUPPLY
+2026-05-07,Hyderabad,Telangana,Tomato,Vegetable,81.29,64.96,35.33,12.34,HIGH,HIGH_SUPPLY
+2026-05-07,Mysore,Karnataka,Banana,Fruit,64.29,89.19,50.55,-11.45,HIGH,HIGH_DEMAND
+2026-05-07,Mysore,Karnataka,Mango,Fruit,48.55,55.26,92.17,3.35,HIGH,NORMAL
+2026-05-07,Mysore,Karnataka,Onion,Vegetable,81.15,84.67,34.32,13.69,MEDIUM,HIGH_SUPPLY
+2026-05-08,Chennai,Tamil Nadu,Banana,Fruit,87.91,43.35,35.86,16.42,MEDIUM,HIGH_SUPPLY
+2026-05-08,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,36.06,67.31,32.69,-13.99,MEDIUM,NORMAL
+2026-05-08,Hyderabad,Telangana,Potato,Vegetable,73.99,75.55,29.04,7.54,MEDIUM,HIGH_DEMAND
+2026-05-08,Hyderabad,Telangana,Spinach,Leafy Vegetable,72.78,34.08,15.93,14.28,HIGH,NORMAL
+2026-05-09,Hyderabad,Telangana,Onion,Vegetable,41.55,74.48,39.73,-9.81,MEDIUM,HIGH_DEMAND
+2026-05-10,Bangalore,Karnataka,Banana,Fruit,69.81,78.4,51.57,13.34,HIGH,HIGH_DEMAND
+2026-05-10,Chennai,Tamil Nadu,Tomato,Vegetable,44.03,84.51,45.32,7.73,MEDIUM,HIGH_DEMAND
+2026-05-11,Chennai,Tamil Nadu,Banana,Fruit,55.79,68.36,51.65,11.32,MEDIUM,NORMAL
+2026-05-11,Chennai,Tamil Nadu,Onion,Vegetable,69.29,54.24,31.46,-0.73,LOW,NORMAL
+2026-05-11,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,64.83,71.08,31.85,18.44,HIGH,HIGH_DEMAND
+2026-05-11,Mysore,Karnataka,Potato,Vegetable,83.5,88.07,28.08,-0.05,LOW,HIGH_SUPPLY
+2026-05-11,Mysore,Karnataka,Spinach,Leafy Vegetable,20.69,89.83,37.85,-5.3,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-05-12,Bangalore,Karnataka,Potato,Vegetable,72.26,91.48,36.84,6.12,LOW,HIGH_DEMAND
+2026-05-12,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,99.1,31.16,17.55,15.88,MEDIUM,HIGH_SUPPLY
+2026-05-12,Hyderabad,Telangana,Banana,Fruit,52.31,63.93,47.79,-0.18,MEDIUM,NORMAL
+2026-05-12,Mysore,Karnataka,Spinach,Leafy Vegetable,82.86,64.95,22.99,-3.76,HIGH,HIGH_SUPPLY
+2026-05-13,Chennai,Tamil Nadu,Banana,Fruit,69.37,77.29,43.87,9.13,MEDIUM,HIGH_DEMAND
+2026-05-13,Hyderabad,Telangana,Mango,Fruit,42.0,85.0,97.1,-3.09,HIGH,HIGH_DEMAND
+2026-05-13,Hyderabad,Telangana,Potato,Vegetable,53.75,97.3,35.56,-2.41,LOW,HIGH_DEMAND
+2026-05-13,Mysore,Karnataka,Mango,Fruit,45.28,33.7,88.82,-13.23,HIGH,NORMAL
+2026-05-13,Mysore,Karnataka,Tomato,Vegetable,37.13,57.5,40.47,10.72,HIGH,NORMAL
+2026-05-14,Bangalore,Karnataka,Potato,Vegetable,84.6,58.61,25.75,-4.87,MEDIUM,HIGH_SUPPLY
+2026-05-14,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,54.34,48.26,26.46,9.11,MEDIUM,NORMAL
+2026-05-14,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,73.36,43.24,21.46,16.78,MEDIUM,NORMAL
+2026-05-14,Chennai,Tamil Nadu,Tomato,Vegetable,54.4,30.56,29.56,0.55,HIGH,NORMAL
+2026-05-14,Hyderabad,Telangana,Spinach,Leafy Vegetable,83.66,44.96,22.36,17.42,MEDIUM,HIGH_SUPPLY
+2026-05-15,Chennai,Tamil Nadu,Potato,Vegetable,71.92,98.83,37.76,-9.17,LOW,HIGH_DEMAND
+2026-05-15,Mysore,Karnataka,Potato,Vegetable,31.67,68.08,36.77,7.54,LOW,NORMAL
+2026-05-16,Bangalore,Karnataka,Tomato,Vegetable,83.34,92.38,34.36,-12.72,MEDIUM,HIGH_SUPPLY
+2026-05-16,Hyderabad,Telangana,Mango,Fruit,56.14,38.94,91.78,7.91,MEDIUM,NORMAL
+2026-05-16,Hyderabad,Telangana,Spinach,Leafy Vegetable,81.02,87.81,25.8,12.48,HIGH,HIGH_SUPPLY
+2026-05-17,Mysore,Karnataka,Mango,Fruit,52.68,54.29,87.11,-10.74,HIGH,NORMAL
+2026-05-18,Bangalore,Karnataka,Mango,Fruit,90.44,60.49,86.68,2.2,MEDIUM,HIGH_SUPPLY
+2026-05-18,Bangalore,Karnataka,Mango,Fruit,93.61,99.67,93.82,18.42,HIGH,HIGH_SUPPLY
+2026-05-18,Bangalore,Karnataka,Onion,Vegetable,80.24,86.38,30.48,-2.47,LOW,HIGH_SUPPLY
+2026-05-18,Bangalore,Karnataka,Potato,Vegetable,54.61,67.79,28.82,-11.22,MEDIUM,NORMAL
+2026-05-18,Mysore,Karnataka,Potato,Vegetable,99.92,31.96,15.14,7.18,MEDIUM,HIGH_SUPPLY
+2026-05-19,Bangalore,Karnataka,Potato,Vegetable,66.1,33.5,20.27,18.68,MEDIUM,NORMAL
+2026-05-19,Chennai,Tamil Nadu,Mango,Fruit,45.31,74.06,94.85,13.63,HIGH,HIGH_DEMAND
+2026-05-19,Chennai,Tamil Nadu,Mango,Fruit,66.64,78.55,90.18,-9.14,HIGH,HIGH_DEMAND
+2026-05-19,Mysore,Karnataka,Spinach,Leafy Vegetable,86.51,77.73,27.13,18.59,HIGH,HIGH_SUPPLY
+2026-05-19,Mysore,Karnataka,Spinach,Leafy Vegetable,20.36,57.58,34.16,-14.82,MEDIUM,NORMAL
+2026-05-20,Chennai,Tamil Nadu,Banana,Fruit,82.79,76.44,48.98,-13.41,HIGH,HIGH_SUPPLY
+2026-05-21,Hyderabad,Telangana,Potato,Vegetable,39.02,75.95,33.77,-1.7,LOW,HIGH_DEMAND_LOW_SUPPLY
+2026-05-21,Mysore,Karnataka,Spinach,Leafy Vegetable,77.77,54.91,19.87,19.17,HIGH,HIGH_SUPPLY
+2026-05-22,Chennai,Tamil Nadu,Mango,Fruit,47.68,71.7,98.65,1.45,MEDIUM,HIGH_DEMAND
+2026-05-22,Chennai,Tamil Nadu,Mango,Fruit,70.71,68.46,93.57,-11.91,HIGH,NORMAL
+2026-05-22,Hyderabad,Telangana,Mango,Fruit,54.5,61.18,93.02,17.11,MEDIUM,NORMAL
+2026-05-22,Hyderabad,Telangana,Spinach,Leafy Vegetable,89.51,38.92,12.68,17.26,HIGH,HIGH_SUPPLY
+2026-05-23,Chennai,Tamil Nadu,Banana,Fruit,46.58,84.15,51.47,5.56,MEDIUM,HIGH_DEMAND
+2026-05-23,Hyderabad,Telangana,Spinach,Leafy Vegetable,45.13,99.66,38.43,-5.95,MEDIUM,HIGH_DEMAND
+2026-05-23,Mysore,Karnataka,Banana,Fruit,21.31,85.5,60.17,-3.62,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-05-24,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,82.37,80.55,26.61,1.01,MEDIUM,HIGH_SUPPLY
+2026-05-24,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,54.13,80.05,30.97,12.26,HIGH,HIGH_DEMAND
+2026-05-24,Hyderabad,Telangana,Mango,Fruit,22.88,51.91,90.61,-14.37,HIGH,NORMAL
+2026-05-24,Hyderabad,Telangana,Onion,Vegetable,97.23,94.5,28.42,4.44,MEDIUM,HIGH_SUPPLY
+2026-05-25,Bangalore,Karnataka,Banana,Fruit,24.39,96.67,55.18,19.15,HIGH,HIGH_DEMAND_LOW_SUPPLY
+2026-05-25,Bangalore,Karnataka,Potato,Vegetable,96.42,65.54,27.79,-11.82,LOW,HIGH_SUPPLY
+2026-05-25,Bangalore,Karnataka,Tomato,Vegetable,45.11,81.47,41.61,-14.05,HIGH,HIGH_DEMAND
+2026-05-25,Chennai,Tamil Nadu,Potato,Vegetable,67.56,51.03,27.45,5.29,MEDIUM,NORMAL
+2026-05-25,Mysore,Karnataka,Potato,Vegetable,22.8,69.38,38.96,-2.85,MEDIUM,NORMAL
+2026-05-26,Bangalore,Karnataka,Mango,Fruit,77.39,42.52,88.32,5.46,HIGH,HIGH_SUPPLY
+2026-05-26,Chennai,Tamil Nadu,Onion,Vegetable,47.65,66.45,37.69,-2.28,LOW,NORMAL
+2026-05-27,Bangalore,Karnataka,Onion,Vegetable,62.06,38.91,21.72,7.0,LOW,NORMAL
+2026-05-27,Chennai,Tamil Nadu,Banana,Fruit,38.38,58.34,51.03,8.78,HIGH,NORMAL
+2026-05-27,Chennai,Tamil Nadu,Onion,Vegetable,96.19,82.63,33.49,-11.5,MEDIUM,HIGH_SUPPLY
+2026-05-27,Mysore,Karnataka,Onion,Vegetable,93.93,84.95,32.41,-10.13,MEDIUM,HIGH_SUPPLY
+2026-05-28,Bangalore,Karnataka,Onion,Vegetable,81.44,92.55,33.06,7.59,LOW,HIGH_SUPPLY
+2026-05-28,Bangalore,Karnataka,Onion,Vegetable,68.92,97.6,36.96,6.85,LOW,HIGH_DEMAND
+2026-05-28,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,80.13,38.45,18.51,4.74,HIGH,HIGH_SUPPLY
+2026-05-28,Hyderabad,Telangana,Mango,Fruit,44.54,44.1,88.01,3.76,MEDIUM,NORMAL
+2026-05-28,Hyderabad,Telangana,Spinach,Leafy Vegetable,44.47,86.3,30.64,-8.11,HIGH,HIGH_DEMAND
+2026-05-28,Mysore,Karnataka,Banana,Fruit,96.77,81.92,48.19,-10.24,MEDIUM,HIGH_SUPPLY
+2026-05-28,Mysore,Karnataka,Banana,Fruit,79.95,83.58,51.28,-9.81,MEDIUM,HIGH_SUPPLY
+2026-05-29,Bangalore,Karnataka,Onion,Vegetable,30.58,96.98,37.57,-1.15,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-05-29,Chennai,Tamil Nadu,Tomato,Vegetable,61.91,87.76,40.55,-7.59,MEDIUM,HIGH_DEMAND
+2026-05-29,Hyderabad,Telangana,Onion,Vegetable,94.31,69.87,26.22,-0.26,LOW,HIGH_SUPPLY
+2026-05-29,Mysore,Karnataka,Onion,Vegetable,91.14,64.11,24.11,18.42,LOW,HIGH_SUPPLY
+2026-05-30,Chennai,Tamil Nadu,Onion,Vegetable,41.93,56.17,36.51,-3.24,LOW,NORMAL
+2026-05-30,Chennai,Tamil Nadu,Potato,Vegetable,73.89,62.12,24.01,17.89,MEDIUM,NORMAL
+2026-05-30,Hyderabad,Telangana,Mango,Fruit,58.08,49.6,92.42,-8.53,HIGH,NORMAL
+2026-05-31,Chennai,Tamil Nadu,Mango,Fruit,88.34,83.39,87.02,5.68,MEDIUM,HIGH_SUPPLY
+2026-05-31,Hyderabad,Telangana,Onion,Vegetable,40.15,39.9,33.95,7.78,MEDIUM,NORMAL
+2026-05-31,Hyderabad,Telangana,Tomato,Vegetable,33.25,48.47,41.59,18.33,HIGH,NORMAL
+2026-05-31,Mysore,Karnataka,Banana,Fruit,69.07,55.92,45.7,-14.88,HIGH,NORMAL
+2026-06-01,Bangalore,Karnataka,Mango,Fruit,74.3,41.71,87.83,16.27,HIGH,NORMAL
+2026-06-01,Bangalore,Karnataka,Spinach,Leafy Vegetable,79.13,50.28,19.06,-6.38,HIGH,HIGH_SUPPLY
+2026-06-01,Hyderabad,Telangana,Mango,Fruit,90.83,52.6,85.09,-11.11,HIGH,HIGH_SUPPLY
+2026-06-01,Hyderabad,Telangana,Tomato,Vegetable,36.96,84.89,45.05,4.19,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-06-01,Mysore,Karnataka,Potato,Vegetable,72.81,80.9,34.88,6.85,LOW,HIGH_DEMAND
+2026-06-01,Mysore,Karnataka,Spinach,Leafy Vegetable,42.49,87.84,32.32,-6.25,HIGH,HIGH_DEMAND
+2026-06-02,Mysore,Karnataka,Potato,Vegetable,44.83,78.63,34.3,-14.52,MEDIUM,HIGH_DEMAND
+2026-06-03,Chennai,Tamil Nadu,Banana,Fruit,60.79,96.78,50.02,4.39,MEDIUM,HIGH_DEMAND
+2026-06-03,Chennai,Tamil Nadu,Tomato,Vegetable,66.64,42.72,26.37,5.88,HIGH,NORMAL
+2026-06-03,Chennai,Tamil Nadu,Tomato,Vegetable,92.65,57.82,32.51,1.04,HIGH,HIGH_SUPPLY
+2026-06-03,Chennai,Tamil Nadu,Tomato,Vegetable,71.98,89.02,39.44,6.43,MEDIUM,HIGH_DEMAND
+2026-06-04,Bangalore,Karnataka,Onion,Vegetable,85.7,54.21,21.3,-13.48,LOW,HIGH_SUPPLY
+2026-06-04,Chennai,Tamil Nadu,Tomato,Vegetable,65.36,49.73,30.52,18.08,MEDIUM,NORMAL
+2026-06-05,Hyderabad,Telangana,Onion,Vegetable,25.06,76.59,37.97,17.53,LOW,HIGH_DEMAND_LOW_SUPPLY
+2026-06-05,Hyderabad,Telangana,Tomato,Vegetable,40.72,61.12,36.47,-9.28,HIGH,NORMAL
+2026-06-06,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,26.46,46.43,30.96,19.95,MEDIUM,NORMAL
+2026-06-06,Chennai,Tamil Nadu,Tomato,Vegetable,27.61,52.7,38.79,15.06,HIGH,NORMAL
+2026-06-07,Bangalore,Karnataka,Onion,Vegetable,29.88,55.54,34.71,17.83,LOW,NORMAL
+2026-06-07,Chennai,Tamil Nadu,Onion,Vegetable,26.06,91.01,41.3,-5.07,LOW,HIGH_DEMAND_LOW_SUPPLY
+2026-06-07,Hyderabad,Telangana,Banana,Fruit,90.58,99.49,51.43,-6.41,MEDIUM,HIGH_SUPPLY
+2026-06-08,Mysore,Karnataka,Spinach,Leafy Vegetable,96.67,98.15,30.36,15.59,HIGH,HIGH_SUPPLY
+2026-06-09,Bangalore,Karnataka,Onion,Vegetable,73.22,34.37,18.97,-10.09,MEDIUM,NORMAL
+2026-06-09,Bangalore,Karnataka,Potato,Vegetable,30.58,78.81,37.1,13.6,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-06-09,Bangalore,Karnataka,Spinach,Leafy Vegetable,44.27,98.3,31.62,-6.4,MEDIUM,HIGH_DEMAND
+2026-06-09,Hyderabad,Telangana,Banana,Fruit,68.69,77.66,49.57,-4.26,HIGH,HIGH_DEMAND
+2026-06-10,Bangalore,Karnataka,Mango,Fruit,53.93,60.2,92.16,-14.32,HIGH,NORMAL
+2026-06-10,Bangalore,Karnataka,Onion,Vegetable,90.95,91.55,33.4,-7.51,MEDIUM,HIGH_SUPPLY
+2026-06-10,Chennai,Tamil Nadu,Banana,Fruit,88.27,52.87,37.0,-8.19,HIGH,HIGH_SUPPLY
+2026-06-10,Mysore,Karnataka,Banana,Fruit,53.01,54.28,44.35,-6.61,HIGH,NORMAL
+2026-06-10,Mysore,Karnataka,Tomato,Vegetable,89.43,71.17,29.1,18.36,MEDIUM,HIGH_SUPPLY
+2026-06-11,Hyderabad,Telangana,Spinach,Leafy Vegetable,54.11,60.38,24.63,-9.34,HIGH,NORMAL
+2026-06-11,Hyderabad,Telangana,Spinach,Leafy Vegetable,95.59,49.35,18.53,-14.99,MEDIUM,HIGH_SUPPLY
+2026-06-11,Mysore,Karnataka,Banana,Fruit,77.37,97.32,48.74,-12.22,HIGH,HIGH_SUPPLY
+2026-06-11,Mysore,Karnataka,Potato,Vegetable,54.11,90.59,32.6,-4.95,MEDIUM,HIGH_DEMAND
+2026-06-12,Bangalore,Karnataka,Potato,Vegetable,22.36,55.84,29.8,8.32,MEDIUM,NORMAL
+2026-06-12,Bangalore,Karnataka,Potato,Vegetable,52.62,46.28,28.39,-11.2,MEDIUM,NORMAL
+2026-06-12,Chennai,Tamil Nadu,Mango,Fruit,50.36,68.49,94.7,-9.43,MEDIUM,NORMAL
+2026-06-12,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,41.1,71.63,33.24,9.36,HIGH,HIGH_DEMAND
+2026-06-12,Mysore,Karnataka,Onion,Vegetable,38.78,49.02,31.01,-14.13,MEDIUM,NORMAL
+2026-06-12,Mysore,Karnataka,Onion,Vegetable,85.62,57.1,30.51,-12.44,LOW,HIGH_SUPPLY
+2026-06-13,Chennai,Tamil Nadu,Mango,Fruit,85.37,94.77,97.51,2.36,HIGH,HIGH_SUPPLY
+2026-06-13,Chennai,Tamil Nadu,Potato,Vegetable,94.51,48.75,22.4,13.81,MEDIUM,HIGH_SUPPLY
+2026-06-13,Hyderabad,Telangana,Tomato,Vegetable,58.48,62.1,32.05,7.32,MEDIUM,NORMAL
+2026-06-13,Hyderabad,Telangana,Tomato,Vegetable,52.84,58.05,39.16,13.24,HIGH,NORMAL
+2026-06-13,Mysore,Karnataka,Spinach,Leafy Vegetable,75.86,78.19,25.71,-13.52,HIGH,HIGH_SUPPLY
+2026-06-13,Mysore,Karnataka,Spinach,Leafy Vegetable,44.78,49.52,26.66,-4.44,MEDIUM,NORMAL
+2026-06-14,Bangalore,Karnataka,Potato,Vegetable,40.36,83.12,31.54,-3.17,MEDIUM,HIGH_DEMAND
+2026-06-14,Chennai,Tamil Nadu,Mango,Fruit,59.81,33.01,81.27,10.21,MEDIUM,NORMAL
+2026-06-14,Chennai,Tamil Nadu,Onion,Vegetable,24.48,55.38,38.38,-11.86,MEDIUM,NORMAL
+2026-06-14,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,40.86,81.45,29.0,5.43,MEDIUM,HIGH_DEMAND
+2026-06-15,Bangalore,Karnataka,Potato,Vegetable,73.03,64.71,28.11,-10.53,MEDIUM,NORMAL
+2026-06-15,Mysore,Karnataka,Potato,Vegetable,48.94,51.72,27.41,-2.41,MEDIUM,NORMAL
+2026-06-16,Chennai,Tamil Nadu,Mango,Fruit,59.53,84.27,94.61,7.21,MEDIUM,HIGH_DEMAND
+2026-06-16,Hyderabad,Telangana,Spinach,Leafy Vegetable,43.1,57.73,30.73,-13.49,HIGH,NORMAL
+2026-06-16,Hyderabad,Telangana,Tomato,Vegetable,65.02,62.66,33.37,19.54,MEDIUM,NORMAL
+2026-06-16,Mysore,Karnataka,Potato,Vegetable,52.05,69.62,34.9,-6.68,LOW,NORMAL
+2026-06-16,Mysore,Karnataka,Spinach,Leafy Vegetable,28.64,95.19,37.55,3.32,HIGH,HIGH_DEMAND_LOW_SUPPLY
+2026-06-17,Bangalore,Karnataka,Mango,Fruit,95.53,62.63,84.08,16.36,HIGH,HIGH_SUPPLY
+2026-06-17,Chennai,Tamil Nadu,Mango,Fruit,96.54,69.64,89.7,9.73,HIGH,HIGH_SUPPLY
+2026-06-17,Chennai,Tamil Nadu,Onion,Vegetable,76.71,58.85,24.17,17.37,MEDIUM,HIGH_SUPPLY
+2026-06-17,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,46.2,39.74,19.07,-3.03,HIGH,NORMAL
+2026-06-17,Hyderabad,Telangana,Banana,Fruit,86.82,44.06,43.07,3.06,MEDIUM,HIGH_SUPPLY
+2026-06-18,Bangalore,Karnataka,Spinach,Leafy Vegetable,74.26,92.94,26.23,3.06,HIGH,HIGH_DEMAND
+2026-06-18,Chennai,Tamil Nadu,Onion,Vegetable,75.21,74.79,28.06,-4.91,LOW,HIGH_SUPPLY
+2026-06-18,Hyderabad,Telangana,Potato,Vegetable,75.58,89.22,34.9,3.72,LOW,HIGH_SUPPLY
+2026-06-18,Hyderabad,Telangana,Spinach,Leafy Vegetable,24.62,32.24,22.14,-12.99,MEDIUM,NORMAL
+2026-06-18,Hyderabad,Telangana,Spinach,Leafy Vegetable,65.33,30.29,20.01,8.64,MEDIUM,NORMAL
+2026-06-18,Mysore,Karnataka,Banana,Fruit,67.31,45.35,41.9,-2.65,MEDIUM,NORMAL
+2026-06-18,Mysore,Karnataka,Onion,Vegetable,87.38,89.7,35.04,-1.29,MEDIUM,HIGH_SUPPLY
+2026-06-18,Mysore,Karnataka,Spinach,Leafy Vegetable,94.37,75.56,28.41,-2.62,HIGH,HIGH_SUPPLY
+2026-06-19,Chennai,Tamil Nadu,Tomato,Vegetable,64.84,38.23,34.0,-11.5,MEDIUM,NORMAL
+2026-06-19,Hyderabad,Telangana,Spinach,Leafy Vegetable,64.59,79.98,25.25,18.7,MEDIUM,HIGH_DEMAND
+2026-06-20,Hyderabad,Telangana,Onion,Vegetable,88.48,86.97,29.56,1.8,MEDIUM,HIGH_SUPPLY
+2026-06-21,Bangalore,Karnataka,Banana,Fruit,59.6,51.7,47.09,-10.2,HIGH,NORMAL
+2026-06-21,Bangalore,Karnataka,Potato,Vegetable,91.63,97.41,32.42,-4.15,LOW,HIGH_SUPPLY
+2026-06-21,Hyderabad,Telangana,Onion,Vegetable,51.03,95.16,37.8,-12.24,LOW,HIGH_DEMAND
+2026-06-21,Mysore,Karnataka,Banana,Fruit,58.25,76.73,46.13,16.23,MEDIUM,HIGH_DEMAND
+2026-06-21,Mysore,Karnataka,Onion,Vegetable,50.55,57.35,26.49,-8.44,LOW,NORMAL
+2026-06-22,Bangalore,Karnataka,Potato,Vegetable,88.34,89.22,30.5,17.56,MEDIUM,HIGH_SUPPLY
+2026-06-22,Bangalore,Karnataka,Spinach,Leafy Vegetable,69.06,83.09,31.77,-6.37,HIGH,HIGH_DEMAND
+2026-06-22,Bangalore,Karnataka,Spinach,Leafy Vegetable,60.68,87.66,35.63,11.52,HIGH,HIGH_DEMAND
+2026-06-22,Chennai,Tamil Nadu,Onion,Vegetable,77.45,74.44,35.35,3.79,LOW,HIGH_SUPPLY
+2026-06-22,Mysore,Karnataka,Banana,Fruit,28.3,33.68,40.27,-3.98,MEDIUM,NORMAL
+2026-06-22,Mysore,Karnataka,Potato,Vegetable,45.64,32.25,29.82,5.97,LOW,NORMAL
+2026-06-22,Mysore,Karnataka,Spinach,Leafy Vegetable,98.0,63.4,17.05,-7.62,MEDIUM,HIGH_SUPPLY
+2026-06-23,Bangalore,Karnataka,Banana,Fruit,78.97,39.61,40.4,-9.98,MEDIUM,HIGH_SUPPLY
+2026-06-23,Bangalore,Karnataka,Spinach,Leafy Vegetable,53.03,53.35,21.05,-5.04,HIGH,NORMAL
+2026-06-23,Hyderabad,Telangana,Tomato,Vegetable,57.93,54.95,39.01,12.17,MEDIUM,NORMAL
+2026-06-23,Mysore,Karnataka,Onion,Vegetable,76.21,95.14,31.3,-1.67,LOW,HIGH_SUPPLY
+2026-06-23,Mysore,Karnataka,Spinach,Leafy Vegetable,74.03,74.61,28.67,14.27,HIGH,HIGH_DEMAND
+2026-06-23,Mysore,Karnataka,Spinach,Leafy Vegetable,29.51,66.71,32.95,1.95,MEDIUM,NORMAL
+2026-06-24,Hyderabad,Telangana,Onion,Vegetable,61.28,90.76,35.16,-9.14,LOW,HIGH_DEMAND
+2026-06-25,Bangalore,Karnataka,Banana,Fruit,22.83,31.06,43.01,14.86,MEDIUM,NORMAL
+2026-06-25,Bangalore,Karnataka,Onion,Vegetable,45.08,82.98,36.71,5.11,LOW,HIGH_DEMAND
+2026-06-25,Hyderabad,Telangana,Spinach,Leafy Vegetable,25.85,58.25,27.68,-8.48,HIGH,NORMAL
+2026-06-26,Bangalore,Karnataka,Mango,Fruit,78.72,78.88,89.24,18.91,HIGH,HIGH_SUPPLY
+2026-06-26,Bangalore,Karnataka,Potato,Vegetable,27.54,87.78,42.74,-9.19,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-06-26,Bangalore,Karnataka,Spinach,Leafy Vegetable,37.28,73.27,32.99,1.5,MEDIUM,HIGH_DEMAND
+2026-06-27,Bangalore,Karnataka,Banana,Fruit,47.91,85.14,54.43,18.63,HIGH,HIGH_DEMAND
+2026-06-27,Bangalore,Karnataka,Banana,Fruit,75.34,61.07,44.65,19.61,HIGH,HIGH_SUPPLY
+2026-06-27,Bangalore,Karnataka,Banana,Fruit,34.1,62.53,48.96,10.25,HIGH,NORMAL
+2026-06-27,Hyderabad,Telangana,Tomato,Vegetable,29.65,70.24,39.74,-9.45,HIGH,HIGH_DEMAND
+2026-06-28,Bangalore,Karnataka,Banana,Fruit,46.07,56.49,46.41,-11.93,MEDIUM,NORMAL
+2026-06-28,Bangalore,Karnataka,Mango,Fruit,33.66,59.14,92.3,12.47,HIGH,NORMAL
+2026-06-28,Bangalore,Karnataka,Potato,Vegetable,57.73,42.01,29.86,-8.96,LOW,NORMAL
+2026-06-28,Bangalore,Karnataka,Spinach,Leafy Vegetable,38.76,57.73,29.82,2.8,HIGH,NORMAL
+2026-06-28,Chennai,Tamil Nadu,Mango,Fruit,99.04,99.3,87.88,-13.27,MEDIUM,HIGH_SUPPLY
+2026-06-28,Chennai,Tamil Nadu,Tomato,Vegetable,74.08,38.31,32.26,9.41,HIGH,NORMAL
+2026-06-28,Chennai,Tamil Nadu,Tomato,Vegetable,89.85,70.81,37.42,-13.03,MEDIUM,HIGH_SUPPLY
+2026-06-28,Hyderabad,Telangana,Potato,Vegetable,22.31,38.76,32.78,6.16,LOW,NORMAL
+2026-06-28,Mysore,Karnataka,Tomato,Vegetable,95.51,81.03,38.02,12.63,MEDIUM,HIGH_SUPPLY
+2026-06-29,Hyderabad,Telangana,Potato,Vegetable,63.06,89.22,30.14,7.74,LOW,HIGH_DEMAND
+2026-06-29,Hyderabad,Telangana,Tomato,Vegetable,74.36,58.06,30.62,-13.02,MEDIUM,NORMAL
+2026-06-30,Hyderabad,Telangana,Mango,Fruit,97.58,66.08,85.02,-11.47,HIGH,HIGH_SUPPLY
+2026-07-01,Bangalore,Karnataka,Mango,Fruit,66.54,58.17,89.01,9.79,MEDIUM,NORMAL
+2026-07-01,Chennai,Tamil Nadu,Potato,Vegetable,66.24,43.43,25.19,3.16,MEDIUM,NORMAL
+2026-07-01,Hyderabad,Telangana,Potato,Vegetable,67.24,84.62,36.35,2.29,MEDIUM,HIGH_DEMAND
+2026-07-02,Bangalore,Karnataka,Spinach,Leafy Vegetable,86.24,58.87,20.32,-14.39,HIGH,HIGH_SUPPLY
+2026-07-02,Mysore,Karnataka,Onion,Vegetable,90.55,81.43,34.94,-11.48,LOW,HIGH_SUPPLY
+2026-07-02,Mysore,Karnataka,Tomato,Vegetable,37.61,54.14,34.93,0.92,MEDIUM,NORMAL
+2026-07-02,Mysore,Karnataka,Tomato,Vegetable,46.61,50.14,39.06,9.56,HIGH,NORMAL
+2026-07-03,Chennai,Tamil Nadu,Banana,Fruit,55.99,98.46,53.57,-10.2,MEDIUM,HIGH_DEMAND
+2026-07-03,Chennai,Tamil Nadu,Onion,Vegetable,46.77,93.56,42.15,-14.45,LOW,HIGH_DEMAND
+2026-07-03,Mysore,Karnataka,Mango,Fruit,45.74,83.43,97.21,6.04,MEDIUM,HIGH_DEMAND
+2026-07-03,Mysore,Karnataka,Mango,Fruit,23.93,66.16,95.58,10.99,MEDIUM,NORMAL
+2026-07-04,Chennai,Tamil Nadu,Mango,Fruit,25.77,39.16,94.86,-9.13,MEDIUM,NORMAL
+2026-07-04,Mysore,Karnataka,Tomato,Vegetable,32.82,37.73,35.5,-10.37,HIGH,NORMAL
+2026-07-05,Chennai,Tamil Nadu,Banana,Fruit,50.57,40.83,47.41,-0.24,HIGH,NORMAL
+2026-07-05,Chennai,Tamil Nadu,Banana,Fruit,68.86,66.93,42.6,16.45,MEDIUM,NORMAL
+2026-07-05,Hyderabad,Telangana,Tomato,Vegetable,56.36,52.88,33.45,11.2,MEDIUM,NORMAL
+2026-07-05,Hyderabad,Telangana,Tomato,Vegetable,59.24,99.48,48.5,14.35,MEDIUM,HIGH_DEMAND
+2026-07-05,Mysore,Karnataka,Mango,Fruit,66.32,59.45,91.52,-5.23,HIGH,NORMAL
+2026-07-05,Mysore,Karnataka,Onion,Vegetable,59.2,74.44,33.04,-3.4,MEDIUM,HIGH_DEMAND
+2026-07-05,Mysore,Karnataka,Spinach,Leafy Vegetable,44.7,69.81,26.25,18.21,MEDIUM,NORMAL
+2026-07-06,Bangalore,Karnataka,Onion,Vegetable,62.53,65.5,34.23,7.29,LOW,NORMAL
+2026-07-06,Bangalore,Karnataka,Spinach,Leafy Vegetable,46.8,38.6,26.83,2.54,HIGH,NORMAL
+2026-07-06,Mysore,Karnataka,Mango,Fruit,48.34,88.11,101.44,2.03,HIGH,HIGH_DEMAND
+2026-07-07,Bangalore,Karnataka,Mango,Fruit,95.11,78.06,85.61,1.45,MEDIUM,HIGH_SUPPLY
+2026-07-07,Chennai,Tamil Nadu,Mango,Fruit,70.06,30.22,83.19,-1.91,HIGH,NORMAL
+2026-07-08,Bangalore,Karnataka,Tomato,Vegetable,31.4,65.67,40.58,-9.3,HIGH,NORMAL
+2026-07-08,Chennai,Tamil Nadu,Mango,Fruit,35.48,54.47,94.52,7.11,HIGH,NORMAL
+2026-07-08,Chennai,Tamil Nadu,Potato,Vegetable,65.78,51.59,28.87,-9.87,MEDIUM,NORMAL
+2026-07-08,Hyderabad,Telangana,Onion,Vegetable,23.63,81.65,40.39,-4.79,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-07-08,Hyderabad,Telangana,Potato,Vegetable,44.18,86.57,34.29,-0.06,LOW,HIGH_DEMAND
+2026-07-08,Mysore,Karnataka,Banana,Fruit,32.6,88.14,52.61,-1.15,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-07-09,Bangalore,Karnataka,Mango,Fruit,74.98,79.31,87.66,-6.37,MEDIUM,HIGH_DEMAND
+2026-07-09,Hyderabad,Telangana,Potato,Vegetable,91.48,32.2,20.7,3.98,MEDIUM,HIGH_SUPPLY
+2026-07-09,Mysore,Karnataka,Banana,Fruit,22.5,76.03,52.23,12.14,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-07-09,Mysore,Karnataka,Mango,Fruit,69.65,96.36,99.48,0.4,MEDIUM,HIGH_DEMAND
+2026-07-10,Hyderabad,Telangana,Potato,Vegetable,34.78,68.68,30.35,-5.9,MEDIUM,NORMAL
+2026-07-11,Chennai,Tamil Nadu,Onion,Vegetable,38.6,34.42,25.23,-1.22,LOW,NORMAL
+2026-07-11,Chennai,Tamil Nadu,Tomato,Vegetable,73.14,57.59,32.35,4.98,MEDIUM,NORMAL
+2026-07-11,Chennai,Tamil Nadu,Tomato,Vegetable,77.54,88.25,42.36,-5.55,MEDIUM,HIGH_SUPPLY
+2026-07-11,Mysore,Karnataka,Spinach,Leafy Vegetable,68.61,91.09,31.87,8.22,HIGH,HIGH_DEMAND
+2026-07-13,Bangalore,Karnataka,Tomato,Vegetable,41.55,39.18,34.84,-3.46,MEDIUM,NORMAL
+2026-07-13,Chennai,Tamil Nadu,Mango,Fruit,46.09,83.07,93.22,-7.57,MEDIUM,HIGH_DEMAND
+2026-07-13,Chennai,Tamil Nadu,Onion,Vegetable,28.38,59.63,37.21,3.91,MEDIUM,NORMAL
+2026-07-13,Hyderabad,Telangana,Spinach,Leafy Vegetable,73.98,67.83,25.05,-9.42,MEDIUM,NORMAL
+2026-07-14,Bangalore,Karnataka,Spinach,Leafy Vegetable,28.24,96.16,35.57,-3.14,HIGH,HIGH_DEMAND_LOW_SUPPLY
+2026-07-14,Chennai,Tamil Nadu,Banana,Fruit,97.64,63.21,43.27,-2.33,MEDIUM,HIGH_SUPPLY
+2026-07-14,Chennai,Tamil Nadu,Mango,Fruit,24.28,45.9,89.83,-11.71,MEDIUM,NORMAL
+2026-07-14,Chennai,Tamil Nadu,Potato,Vegetable,74.9,99.92,36.4,-10.2,LOW,HIGH_DEMAND
+2026-07-15,Chennai,Tamil Nadu,Mango,Fruit,30.87,96.71,102.55,-5.98,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-07-15,Hyderabad,Telangana,Potato,Vegetable,61.09,94.62,37.28,-8.55,MEDIUM,HIGH_DEMAND
+2026-07-15,Hyderabad,Telangana,Spinach,Leafy Vegetable,54.96,81.0,33.64,-7.2,HIGH,HIGH_DEMAND
+2026-07-15,Mysore,Karnataka,Banana,Fruit,54.43,51.32,45.41,-12.58,HIGH,NORMAL
+2026-07-15,Mysore,Karnataka,Banana,Fruit,74.66,97.77,49.88,10.28,MEDIUM,HIGH_DEMAND
+2026-07-15,Mysore,Karnataka,Spinach,Leafy Vegetable,84.8,65.51,18.07,16.96,HIGH,HIGH_SUPPLY
+2026-07-16,Chennai,Tamil Nadu,Tomato,Vegetable,27.12,53.39,39.93,-13.98,MEDIUM,NORMAL
+2026-07-16,Hyderabad,Telangana,Mango,Fruit,26.1,39.24,94.92,-14.19,HIGH,NORMAL
+2026-07-16,Hyderabad,Telangana,Mango,Fruit,81.56,36.06,81.88,9.2,MEDIUM,HIGH_SUPPLY
+2026-07-16,Hyderabad,Telangana,Tomato,Vegetable,80.83,54.07,33.45,15.25,MEDIUM,HIGH_SUPPLY
+2026-07-16,Mysore,Karnataka,Tomato,Vegetable,79.14,59.9,37.05,-14.14,HIGH,HIGH_SUPPLY
+2026-07-17,Bangalore,Karnataka,Potato,Vegetable,47.49,89.09,35.37,-0.35,LOW,HIGH_DEMAND
+2026-07-17,Chennai,Tamil Nadu,Tomato,Vegetable,30.35,30.59,38.09,-9.54,MEDIUM,NORMAL
+2026-07-17,Hyderabad,Telangana,Mango,Fruit,55.92,55.58,90.41,-1.13,HIGH,NORMAL
+2026-07-17,Mysore,Karnataka,Onion,Vegetable,79.87,73.44,29.27,17.44,LOW,HIGH_SUPPLY
+2026-07-18,Bangalore,Karnataka,Potato,Vegetable,33.22,68.86,35.01,7.18,LOW,NORMAL
+2026-07-18,Chennai,Tamil Nadu,Banana,Fruit,42.94,59.58,48.64,-13.23,HIGH,NORMAL
+2026-07-18,Chennai,Tamil Nadu,Banana,Fruit,49.25,55.83,47.8,17.44,MEDIUM,NORMAL
+2026-07-18,Chennai,Tamil Nadu,Onion,Vegetable,42.4,68.64,39.55,-10.63,MEDIUM,NORMAL
+2026-07-18,Chennai,Tamil Nadu,Tomato,Vegetable,68.04,82.01,38.63,0.62,MEDIUM,HIGH_DEMAND
+2026-07-19,Bangalore,Karnataka,Onion,Vegetable,90.29,67.7,26.36,7.07,LOW,HIGH_SUPPLY
+2026-07-19,Chennai,Tamil Nadu,Tomato,Vegetable,88.63,39.57,28.69,7.48,MEDIUM,HIGH_SUPPLY
+2026-07-19,Mysore,Karnataka,Banana,Fruit,41.24,44.39,40.29,19.14,HIGH,NORMAL
+2026-07-19,Mysore,Karnataka,Potato,Vegetable,72.13,79.53,34.58,-12.72,LOW,HIGH_DEMAND
+2026-07-20,Chennai,Tamil Nadu,Mango,Fruit,38.38,40.75,93.23,-0.12,MEDIUM,NORMAL
+2026-07-20,Chennai,Tamil Nadu,Onion,Vegetable,41.73,31.89,32.38,5.84,LOW,NORMAL
+2026-07-20,Mysore,Karnataka,Mango,Fruit,43.08,31.05,84.55,-0.7,MEDIUM,NORMAL
+2026-07-20,Mysore,Karnataka,Potato,Vegetable,25.29,83.64,40.09,-14.18,LOW,HIGH_DEMAND_LOW_SUPPLY
+2026-07-21,Bangalore,Karnataka,Potato,Vegetable,77.16,59.34,21.61,16.25,MEDIUM,HIGH_SUPPLY
+2026-07-21,Bangalore,Karnataka,Spinach,Leafy Vegetable,38.33,63.45,31.3,-11.74,HIGH,NORMAL
+2026-07-21,Hyderabad,Telangana,Banana,Fruit,77.87,30.76,36.57,-7.86,HIGH,HIGH_SUPPLY
+2026-07-21,Hyderabad,Telangana,Banana,Fruit,49.05,66.0,46.87,-13.65,MEDIUM,NORMAL
+2026-07-21,Hyderabad,Telangana,Spinach,Leafy Vegetable,92.87,94.81,31.76,2.47,HIGH,HIGH_SUPPLY
+2026-07-21,Mysore,Karnataka,Potato,Vegetable,75.99,38.8,26.86,13.07,MEDIUM,HIGH_SUPPLY
+2026-07-21,Mysore,Karnataka,Tomato,Vegetable,20.94,47.0,39.04,17.31,MEDIUM,NORMAL
+2026-07-22,Bangalore,Karnataka,Spinach,Leafy Vegetable,32.92,75.02,30.75,5.4,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-07-22,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,90.0,47.53,19.29,-10.38,MEDIUM,HIGH_SUPPLY
+2026-07-22,Hyderabad,Telangana,Onion,Vegetable,66.95,54.14,28.6,-8.17,LOW,NORMAL
+2026-07-22,Hyderabad,Telangana,Spinach,Leafy Vegetable,46.76,47.93,21.74,15.51,HIGH,NORMAL
+2026-07-22,Mysore,Karnataka,Mango,Fruit,45.84,45.18,94.42,-14.05,HIGH,NORMAL
+2026-07-23,Hyderabad,Telangana,Tomato,Vegetable,28.88,88.93,48.58,1.59,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-07-24,Bangalore,Karnataka,Spinach,Leafy Vegetable,53.34,85.49,33.1,-2.33,MEDIUM,HIGH_DEMAND
+2026-07-25,Hyderabad,Telangana,Onion,Vegetable,58.8,74.52,33.2,16.73,LOW,HIGH_DEMAND
+2026-07-25,Mysore,Karnataka,Onion,Vegetable,58.23,69.57,30.34,-12.34,LOW,NORMAL
+2026-07-25,Mysore,Karnataka,Potato,Vegetable,96.79,76.78,30.05,-9.51,MEDIUM,HIGH_SUPPLY
+2026-07-26,Bangalore,Karnataka,Mango,Fruit,46.12,34.77,91.87,2.39,MEDIUM,NORMAL
+2026-07-26,Bangalore,Karnataka,Spinach,Leafy Vegetable,23.88,71.84,34.47,16.96,HIGH,HIGH_DEMAND
+2026-07-26,Bangalore,Karnataka,Tomato,Vegetable,23.13,30.2,38.12,-0.24,HIGH,NORMAL
+2026-07-26,Chennai,Tamil Nadu,Potato,Vegetable,54.3,66.96,32.01,5.3,LOW,NORMAL
+2026-07-27,Chennai,Tamil Nadu,Onion,Vegetable,92.98,33.55,21.21,18.4,LOW,HIGH_SUPPLY
+2026-07-27,Chennai,Tamil Nadu,Tomato,Vegetable,27.54,71.28,46.75,0.18,MEDIUM,HIGH_DEMAND
+2026-07-27,Hyderabad,Telangana,Mango,Fruit,59.97,49.85,88.75,-14.3,MEDIUM,NORMAL
+2026-07-27,Mysore,Karnataka,Mango,Fruit,49.59,80.27,96.26,7.88,HIGH,HIGH_DEMAND
+2026-07-27,Mysore,Karnataka,Onion,Vegetable,67.57,36.44,29.34,-13.13,MEDIUM,NORMAL
+2026-07-27,Mysore,Karnataka,Potato,Vegetable,23.66,90.15,41.45,-0.31,LOW,HIGH_DEMAND_LOW_SUPPLY
+2026-07-28,Bangalore,Karnataka,Potato,Vegetable,21.84,79.64,38.98,-12.17,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-07-28,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,35.55,38.87,23.38,14.81,MEDIUM,NORMAL
+2026-07-28,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,96.45,93.05,24.94,-13.92,HIGH,HIGH_SUPPLY
+2026-07-28,Hyderabad,Telangana,Onion,Vegetable,84.91,77.54,33.13,-11.8,LOW,HIGH_SUPPLY
+2026-07-28,Hyderabad,Telangana,Potato,Vegetable,56.52,65.07,28.3,-0.75,LOW,NORMAL
+2026-07-28,Mysore,Karnataka,Banana,Fruit,70.16,92.68,47.35,3.71,HIGH,HIGH_DEMAND
+2026-07-28,Mysore,Karnataka,Mango,Fruit,93.35,45.1,79.23,13.33,HIGH,HIGH_SUPPLY
+2026-07-29,Chennai,Tamil Nadu,Tomato,Vegetable,98.47,86.69,35.83,16.28,MEDIUM,HIGH_SUPPLY
+2026-07-30,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,96.27,36.56,16.5,-12.79,MEDIUM,HIGH_SUPPLY
+2026-07-30,Chennai,Tamil Nadu,Tomato,Vegetable,49.09,91.94,45.13,15.02,HIGH,HIGH_DEMAND
+2026-07-30,Hyderabad,Telangana,Banana,Fruit,30.6,43.0,46.22,2.19,MEDIUM,NORMAL
+2026-07-30,Mysore,Karnataka,Spinach,Leafy Vegetable,76.47,32.77,18.28,2.99,HIGH,HIGH_SUPPLY
+2026-07-31,Bangalore,Karnataka,Onion,Vegetable,78.17,91.66,35.18,4.42,LOW,HIGH_SUPPLY
+2026-07-31,Chennai,Tamil Nadu,Banana,Fruit,87.1,81.14,44.76,-4.43,MEDIUM,HIGH_SUPPLY
+2026-07-31,Chennai,Tamil Nadu,Tomato,Vegetable,61.66,68.72,32.13,10.73,HIGH,NORMAL
+2026-07-31,Mysore,Karnataka,Mango,Fruit,46.03,55.45,86.72,10.28,HIGH,NORMAL
+2026-07-31,Mysore,Karnataka,Tomato,Vegetable,44.37,51.03,36.74,18.37,MEDIUM,NORMAL
+2026-08-01,Hyderabad,Telangana,Spinach,Leafy Vegetable,61.01,41.52,18.11,8.02,MEDIUM,NORMAL
+2026-08-01,Hyderabad,Telangana,Tomato,Vegetable,90.82,37.39,24.94,-6.81,HIGH,HIGH_SUPPLY
+2026-08-01,Mysore,Karnataka,Spinach,Leafy Vegetable,66.5,59.14,23.22,14.21,MEDIUM,NORMAL
+2026-08-02,Bangalore,Karnataka,Mango,Fruit,20.18,86.16,104.35,3.83,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-08-02,Chennai,Tamil Nadu,Mango,Fruit,66.82,55.6,88.11,8.91,HIGH,NORMAL
+2026-08-02,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,39.29,33.98,19.3,-1.3,HIGH,NORMAL
+2026-08-02,Chennai,Tamil Nadu,Tomato,Vegetable,86.58,57.2,33.09,-12.82,MEDIUM,HIGH_SUPPLY
+2026-08-02,Hyderabad,Telangana,Mango,Fruit,86.7,66.81,88.01,-11.64,MEDIUM,HIGH_SUPPLY
+2026-08-02,Hyderabad,Telangana,Mango,Fruit,43.1,53.35,89.26,-7.56,MEDIUM,NORMAL
+2026-08-02,Hyderabad,Telangana,Mango,Fruit,74.81,44.69,81.49,5.44,HIGH,NORMAL
+2026-08-02,Hyderabad,Telangana,Spinach,Leafy Vegetable,78.05,61.82,18.38,4.84,MEDIUM,HIGH_SUPPLY
+2026-08-02,Mysore,Karnataka,Banana,Fruit,44.1,59.61,48.99,14.84,HIGH,NORMAL
+2026-08-03,Bangalore,Karnataka,Banana,Fruit,32.94,46.09,42.53,-7.79,MEDIUM,NORMAL
+2026-08-03,Bangalore,Karnataka,Onion,Vegetable,68.85,51.1,25.13,0.54,MEDIUM,NORMAL
+2026-08-03,Bangalore,Karnataka,Potato,Vegetable,58.67,47.59,22.88,-11.7,MEDIUM,NORMAL
+2026-08-03,Bangalore,Karnataka,Potato,Vegetable,62.29,48.11,22.97,13.83,MEDIUM,NORMAL
+2026-08-03,Hyderabad,Telangana,Mango,Fruit,32.86,68.24,99.06,-3.16,HIGH,NORMAL
+2026-08-03,Hyderabad,Telangana,Potato,Vegetable,55.19,48.87,26.66,-9.25,MEDIUM,NORMAL
+2026-08-03,Mysore,Karnataka,Spinach,Leafy Vegetable,88.81,31.39,18.42,2.53,MEDIUM,HIGH_SUPPLY
+2026-08-03,Mysore,Karnataka,Tomato,Vegetable,71.5,46.12,33.67,-4.14,MEDIUM,NORMAL
+2026-08-03,Mysore,Karnataka,Tomato,Vegetable,65.36,44.99,27.93,9.94,MEDIUM,NORMAL
+2026-08-04,Bangalore,Karnataka,Banana,Fruit,66.07,53.72,43.99,1.45,HIGH,NORMAL
+2026-08-04,Chennai,Tamil Nadu,Onion,Vegetable,52.35,96.44,43.91,2.43,MEDIUM,HIGH_DEMAND
+2026-08-04,Hyderabad,Telangana,Mango,Fruit,59.63,33.49,82.23,18.01,MEDIUM,NORMAL
+2026-08-05,Bangalore,Karnataka,Mango,Fruit,52.65,41.82,83.24,14.82,HIGH,NORMAL
+2026-08-05,Chennai,Tamil Nadu,Banana,Fruit,71.17,31.21,33.55,17.02,MEDIUM,NORMAL
+2026-08-05,Chennai,Tamil Nadu,Onion,Vegetable,34.97,41.32,31.96,19.41,LOW,NORMAL
+2026-08-05,Hyderabad,Telangana,Potato,Vegetable,78.93,47.72,27.31,12.75,LOW,HIGH_SUPPLY
+2026-08-05,Hyderabad,Telangana,Spinach,Leafy Vegetable,61.27,77.8,25.54,-7.7,MEDIUM,HIGH_DEMAND
+2026-08-05,Hyderabad,Telangana,Tomato,Vegetable,85.88,48.11,31.1,-0.11,HIGH,HIGH_SUPPLY
+2026-08-05,Mysore,Karnataka,Banana,Fruit,66.74,76.23,44.05,0.98,MEDIUM,HIGH_DEMAND
+2026-08-06,Bangalore,Karnataka,Tomato,Vegetable,23.46,69.13,40.02,-5.11,MEDIUM,NORMAL
+2026-08-06,Hyderabad,Telangana,Banana,Fruit,43.06,70.42,53.1,-10.1,MEDIUM,HIGH_DEMAND
+2026-08-06,Hyderabad,Telangana,Mango,Fruit,51.8,66.42,92.1,18.95,MEDIUM,NORMAL
+2026-08-06,Mysore,Karnataka,Tomato,Vegetable,26.08,48.31,41.99,16.18,MEDIUM,NORMAL
+2026-08-07,Bangalore,Karnataka,Mango,Fruit,73.61,88.08,89.16,14.85,HIGH,HIGH_DEMAND
+2026-08-07,Hyderabad,Telangana,Banana,Fruit,21.06,34.66,43.03,4.7,MEDIUM,NORMAL
+2026-08-08,Bangalore,Karnataka,Mango,Fruit,45.13,46.59,90.3,8.52,MEDIUM,NORMAL
+2026-08-08,Chennai,Tamil Nadu,Banana,Fruit,32.44,60.71,46.28,-8.57,HIGH,NORMAL
+2026-08-08,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,85.82,72.18,20.78,9.9,HIGH,HIGH_SUPPLY
+2026-08-08,Hyderabad,Telangana,Onion,Vegetable,76.57,56.21,28.41,18.32,MEDIUM,HIGH_SUPPLY
+2026-08-08,Hyderabad,Telangana,Potato,Vegetable,29.95,64.63,32.79,18.54,MEDIUM,NORMAL
+2026-08-08,Hyderabad,Telangana,Spinach,Leafy Vegetable,87.56,30.77,14.32,-11.68,MEDIUM,HIGH_SUPPLY
+2026-08-08,Mysore,Karnataka,Banana,Fruit,61.5,59.04,42.82,-2.24,HIGH,NORMAL
+2026-08-08,Mysore,Karnataka,Mango,Fruit,25.64,37.06,87.03,0.38,MEDIUM,NORMAL
+2026-08-09,Bangalore,Karnataka,Spinach,Leafy Vegetable,50.4,98.55,31.1,16.0,HIGH,HIGH_DEMAND
+2026-08-10,Hyderabad,Telangana,Onion,Vegetable,75.92,48.57,30.58,2.97,LOW,HIGH_SUPPLY
+2026-08-10,Mysore,Karnataka,Mango,Fruit,30.42,90.43,102.39,13.82,HIGH,HIGH_DEMAND_LOW_SUPPLY
+2026-08-10,Mysore,Karnataka,Tomato,Vegetable,33.03,74.0,40.02,14.18,HIGH,HIGH_DEMAND
+2026-08-11,Hyderabad,Telangana,Spinach,Leafy Vegetable,33.33,51.56,29.58,-10.28,HIGH,NORMAL
+2026-08-11,Hyderabad,Telangana,Spinach,Leafy Vegetable,54.65,74.09,24.82,3.13,HIGH,HIGH_DEMAND
+2026-08-11,Hyderabad,Telangana,Tomato,Vegetable,28.71,93.96,44.82,4.9,HIGH,HIGH_DEMAND_LOW_SUPPLY
+2026-08-11,Mysore,Karnataka,Onion,Vegetable,84.6,40.04,23.55,-0.95,LOW,HIGH_SUPPLY
+2026-08-12,Bangalore,Karnataka,Potato,Vegetable,99.85,55.83,19.29,-4.66,MEDIUM,HIGH_SUPPLY
+2026-08-12,Chennai,Tamil Nadu,Onion,Vegetable,46.71,37.53,25.53,-9.6,MEDIUM,NORMAL
+2026-08-13,Bangalore,Karnataka,Banana,Fruit,93.85,61.25,45.42,13.13,HIGH,HIGH_SUPPLY
+2026-08-13,Chennai,Tamil Nadu,Banana,Fruit,72.18,76.67,44.23,13.92,MEDIUM,HIGH_DEMAND
+2026-08-13,Mysore,Karnataka,Mango,Fruit,61.78,87.4,96.6,5.56,HIGH,HIGH_DEMAND
+2026-08-14,Bangalore,Karnataka,Banana,Fruit,63.15,35.62,36.03,16.63,HIGH,NORMAL
+2026-08-14,Chennai,Tamil Nadu,Mango,Fruit,39.7,48.57,89.68,8.41,MEDIUM,NORMAL
+2026-08-14,Mysore,Karnataka,Banana,Fruit,34.8,70.58,46.75,17.53,MEDIUM,HIGH_DEMAND
+2026-08-15,Bangalore,Karnataka,Banana,Fruit,54.86,67.12,52.51,-7.0,HIGH,NORMAL
+2026-08-15,Chennai,Tamil Nadu,Mango,Fruit,25.96,74.14,98.19,10.17,MEDIUM,HIGH_DEMAND
+2026-08-15,Chennai,Tamil Nadu,Onion,Vegetable,79.33,68.21,31.75,1.99,MEDIUM,HIGH_SUPPLY
+2026-08-15,Chennai,Tamil Nadu,Potato,Vegetable,24.41,47.48,27.77,0.45,LOW,NORMAL
+2026-08-15,Hyderabad,Telangana,Spinach,Leafy Vegetable,66.22,74.5,28.34,-10.85,MEDIUM,HIGH_DEMAND
+2026-08-15,Mysore,Karnataka,Onion,Vegetable,99.13,71.31,25.93,-5.04,LOW,HIGH_SUPPLY
+2026-08-15,Mysore,Karnataka,Potato,Vegetable,39.37,78.86,31.81,-3.29,LOW,HIGH_DEMAND_LOW_SUPPLY
+2026-08-17,Bangalore,Karnataka,Banana,Fruit,85.08,40.35,35.24,-11.76,HIGH,HIGH_SUPPLY
+2026-08-17,Bangalore,Karnataka,Spinach,Leafy Vegetable,44.43,83.79,31.71,-8.44,MEDIUM,HIGH_DEMAND
+2026-08-17,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,78.17,62.61,25.44,8.02,MEDIUM,HIGH_SUPPLY
+2026-08-17,Chennai,Tamil Nadu,Tomato,Vegetable,72.42,47.68,27.51,-11.82,MEDIUM,NORMAL
+2026-08-17,Mysore,Karnataka,Mango,Fruit,24.89,40.65,90.72,-13.51,HIGH,NORMAL
+2026-08-17,Mysore,Karnataka,Mango,Fruit,43.25,49.79,92.93,8.37,HIGH,NORMAL
+2026-08-17,Mysore,Karnataka,Onion,Vegetable,51.22,71.13,31.69,-9.63,LOW,HIGH_DEMAND
+2026-08-17,Mysore,Karnataka,Potato,Vegetable,43.9,95.09,37.01,19.76,MEDIUM,HIGH_DEMAND
+2026-08-18,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,20.76,90.88,33.64,2.66,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-08-18,Hyderabad,Telangana,Banana,Fruit,21.82,68.38,57.4,14.79,MEDIUM,NORMAL
+2026-08-18,Mysore,Karnataka,Mango,Fruit,60.37,42.46,86.69,17.69,HIGH,NORMAL
+2026-08-19,Bangalore,Karnataka,Banana,Fruit,40.03,37.43,47.78,19.82,MEDIUM,NORMAL
+2026-08-19,Chennai,Tamil Nadu,Onion,Vegetable,54.86,71.99,34.85,10.09,LOW,HIGH_DEMAND
+2026-08-19,Mysore,Karnataka,Spinach,Leafy Vegetable,89.24,48.34,23.4,14.45,MEDIUM,HIGH_SUPPLY
+2026-08-20,Bangalore,Karnataka,Tomato,Vegetable,37.5,68.62,40.99,-3.86,HIGH,NORMAL
+2026-08-20,Chennai,Tamil Nadu,Onion,Vegetable,52.15,76.69,37.66,-6.8,LOW,HIGH_DEMAND
+2026-08-21,Bangalore,Karnataka,Onion,Vegetable,27.91,74.77,39.21,-1.96,LOW,HIGH_DEMAND
+2026-08-21,Chennai,Tamil Nadu,Tomato,Vegetable,59.02,96.24,44.78,-12.46,MEDIUM,HIGH_DEMAND
+2026-08-22,Bangalore,Karnataka,Potato,Vegetable,68.46,83.6,29.58,-13.46,MEDIUM,HIGH_DEMAND
+2026-08-22,Chennai,Tamil Nadu,Banana,Fruit,54.37,70.94,45.35,16.55,MEDIUM,HIGH_DEMAND
+2026-08-22,Chennai,Tamil Nadu,Tomato,Vegetable,60.28,66.66,35.32,13.49,HIGH,NORMAL
+2026-08-22,Hyderabad,Telangana,Banana,Fruit,92.35,64.09,40.84,18.99,HIGH,HIGH_SUPPLY
+2026-08-22,Hyderabad,Telangana,Banana,Fruit,29.72,73.85,48.18,8.76,MEDIUM,HIGH_DEMAND
+2026-08-22,Hyderabad,Telangana,Onion,Vegetable,92.82,59.79,23.73,-0.06,LOW,HIGH_SUPPLY
+2026-08-22,Hyderabad,Telangana,Tomato,Vegetable,59.32,87.11,45.62,-6.14,MEDIUM,HIGH_DEMAND
+2026-08-23,Hyderabad,Telangana,Banana,Fruit,43.12,45.02,43.36,0.52,HIGH,NORMAL
+2026-08-23,Mysore,Karnataka,Banana,Fruit,61.26,89.76,47.33,12.66,HIGH,HIGH_DEMAND
+2026-08-24,Chennai,Tamil Nadu,Potato,Vegetable,50.15,68.24,35.79,-0.44,LOW,NORMAL
+2026-08-24,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,44.58,39.34,18.98,-13.01,HIGH,NORMAL
+2026-08-24,Hyderabad,Telangana,Banana,Fruit,69.27,96.73,53.71,5.15,MEDIUM,HIGH_DEMAND
+2026-08-24,Mysore,Karnataka,Banana,Fruit,73.39,57.67,43.86,-0.97,HIGH,NORMAL
+2026-08-25,Bangalore,Karnataka,Mango,Fruit,48.0,90.55,94.31,-6.77,MEDIUM,HIGH_DEMAND
+2026-08-25,Chennai,Tamil Nadu,Tomato,Vegetable,36.48,33.94,29.37,10.3,HIGH,NORMAL
+2026-08-25,Mysore,Karnataka,Spinach,Leafy Vegetable,97.94,44.1,18.2,-11.08,HIGH,HIGH_SUPPLY
+2026-08-26,Bangalore,Karnataka,Tomato,Vegetable,40.64,47.36,34.7,7.73,HIGH,NORMAL
+2026-08-26,Chennai,Tamil Nadu,Banana,Fruit,97.72,65.43,38.79,4.21,MEDIUM,HIGH_SUPPLY
+2026-08-26,Hyderabad,Telangana,Mango,Fruit,42.01,68.41,99.67,-10.39,MEDIUM,NORMAL
+2026-08-27,Bangalore,Karnataka,Potato,Vegetable,42.74,69.01,34.38,12.62,LOW,NORMAL
+2026-08-27,Bangalore,Karnataka,Spinach,Leafy Vegetable,28.37,48.17,27.29,17.02,MEDIUM,NORMAL
+2026-08-27,Bangalore,Karnataka,Tomato,Vegetable,45.84,95.82,40.91,11.95,MEDIUM,HIGH_DEMAND
+2026-08-28,Chennai,Tamil Nadu,Tomato,Vegetable,87.72,99.96,42.51,1.12,HIGH,HIGH_SUPPLY
+2026-08-29,Bangalore,Karnataka,Onion,Vegetable,83.17,62.95,24.06,5.17,LOW,HIGH_SUPPLY
+2026-08-29,Bangalore,Karnataka,Tomato,Vegetable,63.71,53.5,32.05,-4.97,MEDIUM,NORMAL
+2026-08-29,Chennai,Tamil Nadu,Mango,Fruit,31.36,54.66,96.87,-13.72,HIGH,NORMAL
+2026-08-29,Chennai,Tamil Nadu,Onion,Vegetable,75.14,44.95,21.51,-14.47,LOW,HIGH_SUPPLY
+2026-08-29,Chennai,Tamil Nadu,Tomato,Vegetable,20.42,42.04,37.27,-8.58,MEDIUM,NORMAL
+2026-08-29,Hyderabad,Telangana,Potato,Vegetable,24.56,61.19,38.42,-2.15,MEDIUM,NORMAL
+2026-08-29,Hyderabad,Telangana,Tomato,Vegetable,56.77,96.17,40.99,-6.07,HIGH,HIGH_DEMAND
+2026-08-29,Mysore,Karnataka,Onion,Vegetable,49.8,62.97,35.63,-7.1,LOW,NORMAL
+2026-08-29,Mysore,Karnataka,Potato,Vegetable,29.52,43.71,33.88,-11.82,LOW,NORMAL
+2026-08-30,Bangalore,Karnataka,Tomato,Vegetable,43.95,77.23,42.26,5.31,MEDIUM,HIGH_DEMAND
+2026-08-30,Chennai,Tamil Nadu,Onion,Vegetable,47.49,99.46,36.24,-4.53,LOW,HIGH_DEMAND
+2026-08-30,Mysore,Karnataka,Banana,Fruit,23.94,56.21,54.15,6.41,MEDIUM,NORMAL
+2026-08-30,Mysore,Karnataka,Spinach,Leafy Vegetable,47.2,31.59,26.05,-2.66,MEDIUM,NORMAL
+2026-08-31,Bangalore,Karnataka,Potato,Vegetable,53.75,86.56,33.29,-2.88,LOW,HIGH_DEMAND
+2026-08-31,Mysore,Karnataka,Potato,Vegetable,97.65,58.47,26.24,-11.41,LOW,HIGH_SUPPLY
+2026-08-31,Mysore,Karnataka,Potato,Vegetable,60.81,53.94,29.66,12.17,LOW,NORMAL
+2026-09-01,Chennai,Tamil Nadu,Banana,Fruit,29.54,83.96,53.06,-10.74,HIGH,HIGH_DEMAND_LOW_SUPPLY
+2026-09-01,Mysore,Karnataka,Mango,Fruit,38.64,81.31,102.64,0.49,HIGH,HIGH_DEMAND_LOW_SUPPLY
+2026-09-01,Mysore,Karnataka,Mango,Fruit,78.61,85.28,93.45,-1.35,HIGH,HIGH_SUPPLY
+2026-09-02,Chennai,Tamil Nadu,Onion,Vegetable,42.9,51.22,33.31,13.74,LOW,NORMAL
+2026-09-02,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,70.7,35.42,15.84,9.63,MEDIUM,NORMAL
+2026-09-02,Hyderabad,Telangana,Spinach,Leafy Vegetable,54.28,32.74,20.29,-14.24,HIGH,NORMAL
+2026-09-02,Hyderabad,Telangana,Spinach,Leafy Vegetable,33.03,62.87,32.78,0.44,HIGH,NORMAL
+2026-09-02,Mysore,Karnataka,Potato,Vegetable,65.82,45.06,23.51,-8.55,MEDIUM,NORMAL
+2026-09-03,Bangalore,Karnataka,Spinach,Leafy Vegetable,53.55,66.71,31.49,-10.93,MEDIUM,NORMAL
+2026-09-04,Bangalore,Karnataka,Mango,Fruit,87.74,40.81,86.89,-5.28,MEDIUM,HIGH_SUPPLY
+2026-09-04,Bangalore,Karnataka,Potato,Vegetable,40.01,48.03,33.86,18.3,LOW,NORMAL
+2026-09-04,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,55.72,39.9,24.79,13.51,HIGH,NORMAL
+2026-09-04,Hyderabad,Telangana,Spinach,Leafy Vegetable,47.88,59.38,25.49,-12.43,HIGH,NORMAL
+2026-09-04,Mysore,Karnataka,Spinach,Leafy Vegetable,38.28,97.85,33.31,-4.62,HIGH,HIGH_DEMAND_LOW_SUPPLY
+2026-09-05,Bangalore,Karnataka,Onion,Vegetable,28.94,78.62,37.89,15.59,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-09-05,Bangalore,Karnataka,Spinach,Leafy Vegetable,54.65,98.19,29.26,-8.63,MEDIUM,HIGH_DEMAND
+2026-09-05,Bangalore,Karnataka,Tomato,Vegetable,37.35,49.78,32.13,12.99,MEDIUM,NORMAL
+2026-09-05,Chennai,Tamil Nadu,Potato,Vegetable,76.62,97.2,37.15,19.37,MEDIUM,HIGH_SUPPLY
+2026-09-05,Chennai,Tamil Nadu,Tomato,Vegetable,70.44,35.14,29.12,-6.79,HIGH,NORMAL
+2026-09-06,Bangalore,Karnataka,Potato,Vegetable,21.01,60.66,37.1,-6.64,LOW,NORMAL
+2026-09-06,Bangalore,Karnataka,Tomato,Vegetable,41.17,89.88,48.57,2.8,HIGH,HIGH_DEMAND
+2026-09-06,Chennai,Tamil Nadu,Onion,Vegetable,55.7,49.37,33.42,-12.45,LOW,NORMAL
+2026-09-07,Bangalore,Karnataka,Potato,Vegetable,42.2,79.06,36.92,18.6,MEDIUM,HIGH_DEMAND
+2026-09-07,Hyderabad,Telangana,Tomato,Vegetable,63.91,66.98,34.91,17.46,HIGH,NORMAL
+2026-09-07,Mysore,Karnataka,Onion,Vegetable,75.39,40.69,24.69,12.23,LOW,HIGH_SUPPLY
+2026-09-08,Bangalore,Karnataka,Potato,Vegetable,83.18,89.75,27.0,6.42,LOW,HIGH_SUPPLY
+2026-09-08,Chennai,Tamil Nadu,Onion,Vegetable,82.51,48.33,23.2,-6.63,LOW,HIGH_SUPPLY
+2026-09-08,Chennai,Tamil Nadu,Potato,Vegetable,48.82,85.22,39.8,-0.08,MEDIUM,HIGH_DEMAND
+2026-09-08,Chennai,Tamil Nadu,Tomato,Vegetable,30.54,65.17,39.74,2.25,HIGH,NORMAL
+2026-09-08,Hyderabad,Telangana,Tomato,Vegetable,24.54,64.29,40.47,-6.64,HIGH,NORMAL
+2026-09-08,Mysore,Karnataka,Mango,Fruit,59.49,40.6,89.3,12.04,MEDIUM,NORMAL
+2026-09-09,Hyderabad,Telangana,Tomato,Vegetable,85.19,97.58,36.93,-8.43,MEDIUM,HIGH_SUPPLY
+2026-09-10,Bangalore,Karnataka,Onion,Vegetable,97.0,32.93,23.72,3.86,MEDIUM,HIGH_SUPPLY
+2026-09-10,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,95.24,37.99,18.14,18.9,MEDIUM,HIGH_SUPPLY
+2026-09-10,Hyderabad,Telangana,Mango,Fruit,91.9,30.39,75.85,-8.72,HIGH,HIGH_SUPPLY
+2026-09-10,Mysore,Karnataka,Mango,Fruit,82.66,55.4,90.95,2.3,MEDIUM,HIGH_SUPPLY
+2026-09-10,Mysore,Karnataka,Mango,Fruit,29.78,37.3,91.83,-13.3,MEDIUM,NORMAL
+2026-09-10,Mysore,Karnataka,Onion,Vegetable,36.92,72.67,35.99,-14.41,MEDIUM,HIGH_DEMAND
+2026-09-10,Mysore,Karnataka,Spinach,Leafy Vegetable,81.3,63.1,27.13,-2.57,MEDIUM,HIGH_SUPPLY
+2026-09-11,Bangalore,Karnataka,Mango,Fruit,80.12,44.86,86.58,1.31,HIGH,HIGH_SUPPLY
+2026-09-11,Bangalore,Karnataka,Mango,Fruit,58.08,55.12,88.83,-7.74,HIGH,NORMAL
+2026-09-11,Chennai,Tamil Nadu,Spinach,Leafy Vegetable,58.68,68.43,26.89,11.98,MEDIUM,NORMAL
+2026-09-11,Mysore,Karnataka,Banana,Fruit,78.52,42.44,39.86,15.44,MEDIUM,HIGH_SUPPLY
+2026-09-12,Bangalore,Karnataka,Mango,Fruit,90.64,60.84,90.89,-6.33,MEDIUM,HIGH_SUPPLY
+2026-09-12,Bangalore,Karnataka,Mango,Fruit,80.46,66.62,90.71,18.24,MEDIUM,HIGH_SUPPLY
+2026-09-12,Chennai,Tamil Nadu,Tomato,Vegetable,39.0,42.31,39.83,9.01,MEDIUM,NORMAL
+2026-09-12,Hyderabad,Telangana,Spinach,Leafy Vegetable,27.29,51.9,32.67,-8.03,MEDIUM,NORMAL
+2026-09-12,Hyderabad,Telangana,Tomato,Vegetable,27.42,52.25,40.48,-7.09,HIGH,NORMAL
+2026-09-12,Mysore,Karnataka,Spinach,Leafy Vegetable,91.19,31.15,15.52,7.59,HIGH,HIGH_SUPPLY
+2026-09-13,Bangalore,Karnataka,Onion,Vegetable,38.64,35.81,32.27,1.83,MEDIUM,NORMAL
+2026-09-13,Chennai,Tamil Nadu,Banana,Fruit,61.86,35.48,39.7,9.35,HIGH,NORMAL
+2026-09-13,Mysore,Karnataka,Spinach,Leafy Vegetable,52.82,87.54,34.11,5.91,MEDIUM,HIGH_DEMAND
+2026-09-14,Bangalore,Karnataka,Spinach,Leafy Vegetable,49.31,38.85,19.15,-12.75,MEDIUM,NORMAL
+2026-09-14,Hyderabad,Telangana,Onion,Vegetable,76.4,79.06,28.5,6.6,MEDIUM,HIGH_SUPPLY
+2026-09-14,Mysore,Karnataka,Spinach,Leafy Vegetable,78.39,59.17,24.62,13.76,MEDIUM,HIGH_SUPPLY
+2026-09-15,Bangalore,Karnataka,Onion,Vegetable,45.09,66.45,34.18,15.98,LOW,NORMAL
+2026-09-15,Chennai,Tamil Nadu,Mango,Fruit,46.22,34.94,90.05,7.76,HIGH,NORMAL
+2026-09-16,Chennai,Tamil Nadu,Onion,Vegetable,29.15,56.57,32.34,-5.23,MEDIUM,NORMAL
+2026-09-16,Mysore,Karnataka,Tomato,Vegetable,25.12,90.49,51.77,4.52,MEDIUM,HIGH_DEMAND_LOW_SUPPLY
+2026-09-17,Bangalore,Karnataka,Tomato,Vegetable,64.45,71.0,37.25,9.37,MEDIUM,HIGH_DEMAND
+2026-09-18,Bangalore,Karnataka,Mango,Fruit,40.14,95.01,97.73,-8.25,MEDIUM,HIGH_DEMAND
+2026-09-18,Hyderabad,Telangana,Spinach,Leafy Vegetable,64.77,73.61,25.53,15.53,HIGH,HIGH_DEMAND
+2026-09-19,Hyderabad,Telangana,Potato,Vegetable,40.91,63.72,32.99,9.57,LOW,NORMAL
+2026-09-19,Mysore,Karnataka,Spinach,Leafy Vegetable,40.35,93.28,36.67,-5.39,HIGH,HIGH_DEMAND
+2026-09-20,Hyderabad,Telangana,Banana,Fruit,64.25,77.42,49.02,-7.26,HIGH,HIGH_DEMAND
+2026-09-20,Mysore,Karnataka,Tomato,Vegetable,46.9,87.0,41.87,-2.66,HIGH,HIGH_DEMAND
+2026-09-21,Bangalore,Karnataka,Banana,Fruit,83.04,68.55,43.25,-3.93,HIGH,HIGH_SUPPLY
+2026-09-21,Bangalore,Karnataka,Tomato,Vegetable,63.95,97.83,42.11,10.23,MEDIUM,HIGH_DEMAND
+2026-09-21,Bangalore,Karnataka,Tomato,Vegetable,82.27,70.88,33.87,-0.83,MEDIUM,HIGH_SUPPLY
+2026-09-21,Mysore,Karnataka,Mango,Fruit,87.04,38.31,84.02,3.08,HIGH,HIGH_SUPPLY
+2026-09-22,Chennai,Tamil Nadu,Onion,Vegetable,66.59,91.7,33.32,1.04,MEDIUM,HIGH_DEMAND
+2026-09-22,Hyderabad,Telangana,Banana,Fruit,56.09,87.08,54.1,-4.44,MEDIUM,HIGH_DEMAND
+2026-09-23,Hyderabad,Telangana,Banana,Fruit,55.72,79.55,50.65,12.72,HIGH,HIGH_DEMAND
+2026-09-23,Hyderabad,Telangana,Spinach,Leafy Vegetable,48.68,45.86,28.65,6.27,MEDIUM,NORMAL
+2026-09-23,Mysore,Karnataka,Onion,Vegetable,67.15,34.89,23.98,-11.99,MEDIUM,NORMAL
