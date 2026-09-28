@@ -245,6 +245,18 @@ GitHub treats everything inside the code block as **preformatted text**, so it w
 
 Your GitHub README will therefore show it as:
 
+
+GitHub treats everything inside the code block as **preformatted text**, so it will preserve:
+
+- line breaks
+- spaces
+- indentation
+- arrows
+- numbering
+
+Your GitHub README will therefore show it as:
+
+```text
 1. Python Environment
         ↓
 2. Kafka/KRaft Setup
