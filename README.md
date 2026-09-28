@@ -6,21 +6,19 @@
 
  2. Objectives
 
- Build a reproducible weather-data pipeline.
- Profile raw weather data before cleaning.
- Identify missing values, inconsistent formats, invalid values, and invalid timestamps.
- Create a validated historical weather dataset without inventing missing observations.
- Stream historical weather records through Apache Kafka.
- Store weather observations in Snowflake.
- Prevent duplicate records during repeated ingestion.
- Prepare the architecture for live weather ingestion.
- Enable city/time-based weather analysis and micro-climate comparisons.
-
+- Build a reproducible weather-data pipeline.
+- Profile raw weather data before cleaning.
+- Identify missing values, inconsistent formats, invalid values, and invalid timestamps.
+- Create a validated historical weather dataset without inventing missing observations.
+- Stream historical weather records through Apache Kafka.
+- Store weather observations in Snowflake.
+- Prevent duplicate records during repeated ingestion.
+- Prepare the architecture for live weather ingestion.
+- Enable city/time-based weather analysis and micro-climate comparisons.
 
  3. Problem Statement
 
 Weather datasets can contain missing observations, inconsistent representations, invalid date/time values, placeholder values, incorrect ranges, and duplicate records. If such data is sent directly into a streaming or analytics system, downstream databases and dashboards can produce misleading results.
-
 AtmoSync introduces data profiling and validation before downstream ingestion and uses a streaming architecture to move weather records into Snowflake.
 
  4. Scope
