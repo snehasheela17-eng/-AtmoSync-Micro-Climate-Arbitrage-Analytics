@@ -234,28 +234,6 @@ This test result demonstrates why duplicate protection is required.
 AtmoSync demonstrates an end-to-end weather-data engineering workflow:
  Project Workflow
 
-
-GitHub treats everything inside the code block as **preformatted text**, so it will preserve:
-
-- line breaks
-- spaces
-- indentation
-- arrows
-- numbering
-
-Your GitHub README will therefore show it as:
-
-
-GitHub treats everything inside the code block as **preformatted text**, so it will preserve:
-
-- line breaks
-- spaces
-- indentation
-- arrows
-- numbering
-
-Your GitHub README will therefore show it as:
-
 ```text
 1. Python Environment
         ↓
