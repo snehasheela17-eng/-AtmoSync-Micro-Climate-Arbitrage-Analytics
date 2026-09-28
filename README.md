@@ -157,9 +157,7 @@ Problems identified included missing date/time components, missing measurements 
 
  9. Data Cleaning
 
-Cleaning is implemented in:
-
-clean_weather_dataset.py
+Cleaning is implemented in:  clean_weather_dataset.py
 
 Cleaning includes:
 - Converting known -9999 placeholders to missing values
@@ -177,10 +175,7 @@ Cleaning includes:
 - Creation of a combined datetime field
 
  10. Final Historical Dataset
-
-The final historical time-series dataset is:
-
-data/weather_dataset_final.xlsx
+The final historical time-series dataset is:  data/weather_dataset_final.xlsx
 
  11. Kafka
 
@@ -220,15 +215,11 @@ Current table fields:
 Snowflake is the centralised storage layer for weather observations.
 
  13. Duplicate Handling
-
 Repeated producer runs can publish the same historical observations more than once. Therefore, the final ingestion process must be duplicate-safe.
-
 The final ingestion should use duplicate-safe insert/upsert logic instead of blindly inserting every Kafka message.
 
  14. Snowflake Validation Finding
-
-The current Snowflake test table was inspected for duplicates.
-This test result demonstrates why duplicate protection is required. 
+The current Snowflake test table was inspected for duplicates.This test result demonstrates why duplicate protection is required. 
 
  15. Conclusion:
 AtmoSync demonstrates an end-to-end weather-data engineering workflow:
