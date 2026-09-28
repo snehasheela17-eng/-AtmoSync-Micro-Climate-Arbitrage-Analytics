@@ -6,15 +6,15 @@
 
  2. Objectives
 
-1. Build a reproducible weather-data pipeline.
-2. Profile raw weather data before cleaning.
-3. Identify missing values, inconsistent formats, invalid values, and invalid timestamps.
-4. Create a validated historical weather dataset without inventing missing observations.
-5. Stream historical weather records through Apache Kafka.
-6. Store weather observations in Snowflake.
-7. Prevent duplicate records during repeated ingestion.
-8. Prepare the architecture for live weather ingestion.
-9. Enable city/time-based weather analysis and micro-climate comparisons.
+ Build a reproducible weather-data pipeline.
+ Profile raw weather data before cleaning.
+ Identify missing values, inconsistent formats, invalid values, and invalid timestamps.
+ Create a validated historical weather dataset without inventing missing observations.
+ Stream historical weather records through Apache Kafka.
+ Store weather observations in Snowflake.
+ Prevent duplicate records during repeated ingestion.
+ Prepare the architecture for live weather ingestion.
+ Enable city/time-based weather analysis and micro-climate comparisons.
 
 
  3. Problem Statement
