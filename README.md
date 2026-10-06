@@ -1,280 +1,455 @@
- AtmoSync – Micro-Climate Analytics & Weather Streaming Platform
+# AtmoSync — Micro-Climate Arbitrage Analytics
 
- 1. Project Overview
+## 1. Project Overview
 
-“Our project is AtmoSync, a Micro-Climate Arbitrage Analytics system. We combine historical weather, live weather API data, simulated IoT environmental data, and market/product data. Kafka handles the streaming layer, and Snowflake acts as our central warehouse. We use dbt to clean and transform the IoT and market data, calculate environmental risk, combine environmental and market conditions by city and date, and finally classify potential arbitrage opportunities as high, moderate, or low. The final analytical view is then used for dashboard visualisation.”
+**AtmoSync** is a data analytics project that combines weather, IoT container telemetry, and market data to identify environmental risks, potential arbitrage opportunities, and spoilage risks during transportation.
 
- 2. Objectives
+The project demonstrates an end-to-end data pipeline using **Python, Apache Kafka, Snowflake, dbt, and Apache Superset**.
 
-1. Build a reproducible weather-data pipeline.
-2. Profile raw weather data before cleaning.
-3. Identify missing values, inconsistent formats, invalid values, and invalid timestamps.
-4. Create a validated historical weather dataset without inventing missing observations.
-5. Stream historical weather records through Apache Kafka.
-6. Store weather observations in Snowflake.
-7. Prevent duplicate records during repeated ingestion.
-8. Prepare the architecture for live weather ingestion.
-9. Enable city/time-based weather analysis and micro-climate comparisons.
+The main objective is to transform raw real-time and historical data into meaningful analytical insights and dashboards.
 
+---
 
- 3. Problem Statement
+## 2. Project Objectives
 
-Weather datasets can contain missing observations, inconsistent representations, invalid date/time values, placeholder values, incorrect ranges, and duplicate records. If such data is sent directly into a streaming or analytics system, downstream databases and dashboards can produce misleading results.
+The main objectives of AtmoSync are:
 
-AtmoSync introduces data profiling and validation before downstream ingestion and uses a streaming architecture to move weather records into Snowflake.
+* Collect historical and live weather data.
+* Stream real-time data using Apache Kafka.
+* Store raw data in Snowflake.
+* Simulate IoT container telemetry.
+* Analyze temperature, humidity, and vibration risks.
+* Generate and analyze market data.
+* Use dbt to transform raw data into analytical models.
+* Identify potential market arbitrage opportunities.
+* Analyze spoilage risk based on environmental conditions and transportation time.
+* Build an interactive dashboard using Apache Superset.
 
- 4. Scope
+---
 
-- Historical weather-data profiling
-- Data-quality validation
-- Data cleaning
-- Timestamp validation
-- Kafka streaming
-- Snowflake ingestion
-- Duplicate detection and prevention
-- Pipeline documentation
-- Preparation for live weather API ingestion
-- Analytics-ready storage
+## 3. Technology Stack
 
- Planned expansion
-- Multiple Indian cities/states
-- Open-Meteo live weather ingestion
-- Continuous live streaming
+| Technology      | Purpose                                            |
+| --------------- | -------------------------------------------------- |
+| Python          | Data collection, cleaning, simulation and analysis |
+| Pandas          | Data cleaning and preparation                      |
+| Apache Kafka    | Real-time data streaming                           |
+| Snowflake       | Cloud data warehouse                               |
+| dbt             | Data transformation and testing                    |
+| Apache Superset | Data visualization and dashboard                   |
+| GitHub          | Source-code management                             |
 
-5. High-Level Architecture
+---
 
-ATMOSYNC
-     Architecture
+## 4. Overall Architecture
 
-                              ATMOSYNC
-                                  │
-             ┌────────────────────┼────────────────────┐
-             │                    │                    │
-             ▼                    ▼                    ▼
-      Historical Weather    Live Weather API      IoT Sensors
-           Data                                      Simulator
-             │                    │                    │
-             └────────────────────┼────────────────────┘
-                                  │
-                                  ▼
-                         KAFKA (Real-time Streaming)
-                                  │
-             ┌────────────────────┼────────────────────┐
-             │                    │                    │
-             ▼                    ▼                    ▼
-      Historical Consumer   Live Weather Consumer   IoT Data Consumer
-             │                    │                    │
-             └────────────────────┼────────────────────┘
-                                  │
-                                  ▼
-                            SNOWFLAKE
-                          ATMOSYNC_DB
-                               RAW
-                                  │
-                         ┌────────┴────────┐
-                         │                 │
-                         ▼                 ▼
-                    Market Data        IoT Data
-                         │                 │
-                         └────────┬────────┘
-                                  ▼
-                                DBT
-                                  │
-                                  ▼
-                    Micro-Climate + Market Analysis
-                                  │
-                                  ▼
-                    Arbitrage Opportunity Analysis
-                                  │
-                                  ▼
-                         Dashboard / Superset
-                         
+```text
+Historical Weather Data
+          │
+          ▼
+       Pandas
+          │
+          ▼
+    Kafka Producer
+          │
+          ▼
+        Kafka
+          │
+          ▼
+    Kafka Consumer
+          │
+          ▼
+      Snowflake
+          │
+    ┌─────┼───────────────┐
+    │     │               │
+    ▼     ▼               ▼
+Live    IoT             Market
+Weather Simulator        Data
+ API      │                │
+  │       ▼                │
+  └──► Kafka ◄─────────────┘
+          │
+          ▼
+      Snowflake
+          │
+          ▼
+          dbt
+          │
+    ┌─────┼─────────────────────┐
+    ▼     ▼                     ▼
+Container  Market              Spoilage /
+Risk       Analysis &          Arbitrage
+Analysis   Arbitrage           Analysis
+    │        │                   │
+    └────────┼───────────────────┘
+             ▼
+          Superset
+             │
+             ▼
+         Dashboard
+```
 
- Planned live path
-     text
-Open-Meteo Weather API
-       |
-       v
-Python Producer
-       |
-       v
-Apache Kafka
-       |
-       v
-Python Consumer
-       |
-       v
-Snowflake
-       |
-       v
-Power BI / Analytics
+---
 
-Historical and live data are treated as separate ingestion paths so historical data can be validated independently from continuously changing live data.
+## 5. Data Sources
 
- 6. Technologies
+### Historical Weather Data
 
-| Technology | Purpose |
-| Python | Data processing, cleaning, Kafka producer/consumer |
-| Pandas | Data profiling and transformation |
-| OpenPyXL | Excel input/output |
-| Apache Kafka | Streaming weather records |
-| kafka-python | Python/Kafka integration |
-| Java 21 | Runtime for current Kafka installation |
-| Snowflake | Cloud data warehouse |
-| SQL | Database, validation and deduplication operations |
-| Open-Meteo | Planned live weather API source |
-| Power BI | Planned analytics and visualization |
-| Git/GitHub | Version control and collaboration |
-| VS Code | Development environment |
+Historical weather observations are cleaned using Pandas and streamed through Kafka.
 
- 7. Historical Dataset
+The current master historical dataset contains:
 
-The historical dataset contains 8,632 rows and 20 columns representing hourly weather observations for 2024.
+* **209,103 weather records**
+* **24 cities**
+* Hourly weather observations
 
-Columns:
-`year, month, day, hour, temp, temp_source, rhum, rhum_source, prcp, prcp_source, wdir, wdir_source, wspd, wspd_source, pres, pres_source, cldc, cldc_source, coco, coco_source`
+Important fields include:
 
-Key meanings:
-- temp: temperature
-- rhum: relative humidity
-- prcp: precipitation
-- wdir: wind direction
-- wspd: wind speed
-- pres: atmospheric pressure
-- cldc: cloud cover
-- coco: weather condition code
-- *_source: source associated with the corresponding weather field
+* City
+* Temperature
+* Relative humidity
+* Precipitation
+* Wind speed
+* Pressure
+* Cloud cover
+* Weather condition
+* Timestamp
 
- 8. Data Profiling
+### Live Weather Data
 
-The raw Excel dataset was profiled before cleaning.
+Live weather information is collected from a weather API and continuously streamed through Kafka.
 
-Results:
-- Rows: 8,632
-- Columns: 20
-- Duplicate rows: 0
-- Total null cells: 6,637
+The live pipeline captures information such as:
 
-Problems identified included missing date/time components, missing measurements and source fields, `-9999` placeholders, invalid ranges, inconsistent formats, invalid calendar dates, and invalid date/time combinations.
+* City
+* Latitude
+* Longitude
+* Temperature
+* Humidity
+* Precipitation
+* Wind speed
+* Weather condition
+* Timestamp
 
- 9. Data Cleaning
+### IoT Container Telemetry
 
-Cleaning is implemented in:
+An IoT simulator generates container telemetry containing:
 
-clean_weather_dataset.py
+* Container ID
+* Temperature
+* Humidity
+* Vibration
+* Timestamp
 
-Cleaning includes:
-- Converting known -9999 placeholders to missing values
-- Numeric conversion of measurements
-- Humidity range validation: 0–100
-- Precipitation unit/decimal normalisation
-- Precipitation validation
-- Wind-direction validation: 0–360
-- Wind-speed validation
-- Pressure validation
-- Cloud-cover conversion to a 0–8 scale
-- Weather-condition-code normalization
-- Year/month/day/hour validation
-- Calendar-date validation
-- Creation of a combined datetime field
+The current container telemetry dataset contains approximately **43,460 unique records**.
 
- 10. Final Historical Dataset
+### Market Data
 
-The final historical time-series dataset is:
+Market data is generated for different cities and products and stored in Snowflake for market and arbitrage analysis.
 
-data/weather_dataset_final.xlsx
+---
 
- 11. Kafka
+## 6. Kafka Streaming
 
-Current Kafka setup:
-- Kafka: 4.3.1
-- Java: 21
-- Broker: `localhost:9092
-- Historical topic: historical_weather
-- Test topic: weather_data
+Apache Kafka is used as the real-time streaming layer.
 
- Producer:
-Reads validated records and publishes JSON messages to Kafka.
+Kafka separates data producers from consumers and allows data to be streamed continuously.
 
- Consumer:
-Reads Kafka messages and sends the relevant weather fields to Snowflake.
+Main Kafka streams include:
 
- 12. Snowflake
- Snowflake Structure:
+* `weather_data`
+* `live_weather`
+* `iot_container_telemetry`
 
+The historical weather pipeline successfully processed **209,103 records**.
+
+---
+
+## 7. Snowflake Data Warehouse
+
+Snowflake is used as the central cloud data warehouse.
+
+### Database
+
+```text
 ATMOSYNC_DB
-└── RAW
-    └── WEATHER_DATA
+```
 
-Current table fields:
+### Schema
 
-| Column | Type |
-| CITY | VARCHAR |
-| LATITUDE | FLOAT |
-| LONGITUDE | FLOAT |
-| TEMPERATURE | FLOAT |
-| HUMIDITY | FLOAT |
-| PRECIPITATION | FLOAT |
-| WIND_SPEED | FLOAT |
-| WEATHER | VARCHAR |
-| TIMESTAMP | TIMESTAMP |
+```text
+RAW
+```
 
-Snowflake is the centralised storage layer for weather observations.
+The RAW layer stores incoming data before analytical transformations.
 
- 13. Duplicate Handling
+Important tables include:
 
-Repeated producer runs can publish the same historical observations more than once. Therefore, the final ingestion process must be duplicate-safe.
+* `HISTORICAL_WEATHER_RAW`
+* `WEATHER_DATA`
+* `IOT_TELEMETRY_STAGE`
+* `CONTAINER_TELEMETRY`
+* `CONTAINER_TELEMETRY_ANALYSIS`
+* `CONTAINER_RISK_SUMMARY`
 
-The final ingestion should use duplicate-safe insert/upsert logic instead of blindly inserting every Kafka message.
+Market and analytical data are also stored in Snowflake.
 
- 14. Snowflake Validation Finding
+---
 
-The current Snowflake test table was inspected for duplicates.
-This test result demonstrates why duplicate protection is required. 
+## 8. Container Environmental Risk Analysis
 
- 15. Conclusion:
-AtmoSync demonstrates an end-to-end weather-data engineering workflow:
- Project Workflow
+Container conditions are analyzed using:
 
-1. Python Environment
-        ↓
-2. Kafka/KRaft Setup
-        ↓
-3. Historical Weather Cleaning
-        ↓
-4. Historical Weather → Kafka
-        ↓
-5. Historical Data → Snowflake
-        ↓
-6. Live Weather API
-        ↓
-7. Live Weather → Kafka
-        ↓
-8. Live Weather → Snowflake
-        ↓
-9. IoT Simulator
-        ↓
-10. IoT → Kafka
-        ↓
-11. IoT → Snowflake
-        ↓
-12. Market Data Generation
-        ↓
-13. Market Data → Snowflake
-        ↓
-14. dbt Transformations
-        ↓
-15. Final AtmoSync Analysis
-        ↓
-16. End-to-End Testing
-        ↓
-17. Snowflake Cleanup
-        ↓
-18. GitHub
-        ↓
-19. Dashboard / Superset
-        ↓
-20. README + Documentation
+* Temperature
+* Humidity
+* Vibration
 
-The project emphasises data quality, reproducibility, streaming architecture, cloud storage, and team collaboration. The repository is designed so that any team member can clone the `main` branch, install the documented dependencies, configure required local services and credentials, and execute the pipeline without relying on the team lead's personal development environment.
-GitHub main branch sync test.
+The project classifies environmental conditions into:
+
+```text
+HIGH_RISK
+MEDIUM_RISK
+LOW_RISK
+```
+
+The risk thresholds are project-defined rules used for analytical demonstration.
+
+Risk analysis helps identify containers that may require attention because of unfavorable environmental conditions.
+
+---
+
+## 9. dbt Transformations
+
+dbt is used to transform raw Snowflake data into analytical models.
+
+### Staging Models
+
+Examples include:
+
+* `stg_weather`
+* `stg_iot`
+* `stg_commodity`
+
+### Analytical Models
+
+Examples include:
+
+* `container_health`
+* `daily_market_summary`
+* `arbitrage_analysis`
+* `spoilage_arbitrage`
+* `spoilage_config`
+* `transport_cost_config`
+
+dbt also provides automated data-quality testing.
+
+The project successfully passed **6/6 dbt tests**.
+
+---
+
+## 10. Market and Arbitrage Analysis
+
+The project compares product prices between different cities.
+
+The analysis considers:
+
+* Source city
+* Destination city
+* Product
+* Source price
+* Destination price
+* Route distance
+* Transportation cost
+* Net opportunity
+
+Transportation cost is calculated using the project-defined route-cost configuration.
+
+An arbitrage opportunity represents a **potential opportunity for investigation**, not a guaranteed profit.
+
+---
+
+## 11. Spoilage Analysis
+
+Spoilage analysis combines:
+
+* Product
+* Environmental risk
+* Route distance
+* Estimated transportation time
+* Product storage-risk configuration
+
+Example project-defined storage windows:
+
+| Risk Level | Storage Window |
+| ---------- | -------------: |
+| HIGH       |       24 hours |
+| MEDIUM     |       48 hours |
+| LOW        |       72 hours |
+
+Estimated travel time is calculated from route distance and the configured transportation speed.
+
+This helps determine whether transportation time could exceed the assumed spoilage window.
+
+---
+
+## 12. Superset Dashboard
+
+The final Superset dashboard provides a high-level view of environmental risk.
+
+### KPI Cards
+
+The dashboard contains:
+
+1. **Total Records** — 43.2K
+2. **High-Risk Records** — 10.7K
+3. **Moderate-Risk Records** — 13.6K
+4. **Low-Risk Records** — 18.8K
+
+### Charts
+
+The dashboard also contains:
+
+* **Average Temperature Over Time** — Line Chart
+* **Environmental Risk Distribution** — Pie Chart
+
+The dashboard provides a quick overview of the environmental conditions and risk distribution in the processed data.
+
+---
+
+## 13. Data Quality and Validation
+
+The project includes multiple validation steps:
+
+* Duplicate prevention during Snowflake loading
+* Record-count verification
+* Kafka producer/consumer verification
+* Snowflake connection testing
+* dbt model testing
+* dbt data-quality tests
+* End-to-end pipeline verification
+
+Key validation results:
+
+```text
+Historical Weather Records: 209,103
+Container Telemetry Records: 43,460
+dbt Tests Passed: 6/6
+```
+
+---
+
+## 14. Project Workflow
+
+The complete AtmoSync workflow is:
+
+```text
+1. Collect Data
+        ↓
+2. Clean Historical Data
+        ↓
+3. Stream Data Using Kafka
+        ↓
+4. Load Raw Data into Snowflake
+        ↓
+5. Simulate IoT Container Data
+        ↓
+6. Generate Market Data
+        ↓
+7. Transform Data Using dbt
+        ↓
+8. Perform Risk Analysis
+        ↓
+9. Perform Arbitrage Analysis
+        ↓
+10. Perform Spoilage Analysis
+        ↓
+11. Validate Results
+        ↓
+12. Visualize Results Using Superset
+```
+
+---
+
+## 15. Key Outcomes
+
+AtmoSync demonstrates how multiple data sources can be integrated into a single analytics pipeline.
+
+The project provides:
+
+* Historical weather analysis
+* Live weather streaming
+* IoT container monitoring
+* Environmental risk classification
+* Market analysis
+* Potential arbitrage analysis
+* Spoilage-risk analysis
+* Data transformation using dbt
+* Data-quality testing
+* Business-oriented dashboard visualization
+
+---
+
+## 16. Important Notes
+
+The risk thresholds, transportation cost, storage windows, and travel-speed assumptions used in this project are **project-defined analytical assumptions**.
+
+Arbitrage results represent **potential opportunities for further investigation** and should not be interpreted as guaranteed financial profit.
+
+The analysis identifies relationships and patterns in the available data; it does not establish scientific causation.
+
+---
+
+## 17. How to Run
+
+### Start Kafka
+
+Start the Kafka server and required services.
+
+### Run Data Producers
+
+Run the required Python producers for:
+
+* Historical weather
+* Live weather
+* IoT telemetry
+* Market data
+
+### Run Consumers
+
+Run the Kafka consumers that load data into Snowflake.
+
+### Run dbt
+
+From the dbt project directory:
+
+```bash
+dbt debug
+dbt run
+dbt test
+```
+
+### Start Superset
+
+From the Superset directory:
+
+```powershell
+cd C:\superset-6.0.0
+docker compose -f docker-compose-image-tag.yml up
+```
+
+Open:
+
+```text
+http://localhost:8088
+```
+
+Then open the AtmoSync dashboard.
+
+---
+
+## 18. Conclusion
+
+AtmoSync demonstrates an end-to-end modern data analytics workflow that combines **streaming data, cloud data warehousing, transformation, analytical modeling, and business intelligence**.
+
+The project transforms raw weather, IoT, and market data into actionable environmental-risk, arbitrage, and spoilage insights through a unified analytics pipeline.
