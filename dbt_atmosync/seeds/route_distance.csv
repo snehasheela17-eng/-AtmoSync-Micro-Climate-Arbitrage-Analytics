@@ -1,0 +1,7 @@
+SOURCE_CITY,DESTINATION_CITY,DISTANCE_KM
+Bangalore,Mysore,156
+Bangalore,Chennai,351
+Bangalore,Hyderabad,610
+Mysore,Chennai,467
+Mysore,Hyderabad,701
+Chennai,Hyderabad,632

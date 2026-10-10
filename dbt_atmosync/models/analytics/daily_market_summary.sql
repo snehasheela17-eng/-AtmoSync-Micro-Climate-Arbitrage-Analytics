@@ -1,0 +1,19 @@
+{{ config(materialized='view') }}
+
+SELECT
+    DATE,
+    CITY,
+    STATE,
+    PRODUCT,
+    CATEGORY,
+    AVG(SUPPLY_LEVEL) AS AVG_SUPPLY_LEVEL,
+    AVG(DEMAND_LEVEL) AS AVG_DEMAND_LEVEL,
+    AVG(PRICE_INR) AS AVG_PRICE_INR,
+    AVG(PRICE_CHANGE_PCT) AS AVG_PRICE_CHANGE_PCT
+FROM {{ ref('stg_commodity') }}
+GROUP BY
+    DATE,
+    CITY,
+    STATE,
+    PRODUCT,
+    CATEGORY
