@@ -1,0 +1,14 @@
+city,state,country,latitude,longitude,timestamp,temperature,humidity,precipitation,wind_speed,weather_code
+Bīhar,Madhya Pradesh,India,24.99121,80.312164,2026-09-26T01:15,22.8,98,1.5,13.6,95
+Rāichūr,Karnataka,India,16.203865,77.36243,2026-09-26T01:45,26.0,69,0.0,18.8,3
+Kammampādu,Telangana,India,16.344463,77.6806,2026-09-26T23:45,26.3,71,0.0,9.9,3
+Mandya,Haryana,India,28.998241,77.201836,2026-09-28T12:30,25.0,82,0.1,8.8,51
+Kadapa,Andhra Pradesh,India,14.446397,78.82299,2026-09-28T12:45,35.9,37,0.0,8.1,1
+Shirāli,Karnataka,India,14.024605,74.57143,2026-09-30T22:45,25.8,89,0.0,7.3,1
+Shirāli,Karnataka,India,14.024605,74.57143,2026-09-30T23:00,25.8,89,0.0,7.4,1
+Shirāli,Karnataka,India,14.024605,74.57143,2026-09-30T23:15,25.7,89,0.0,7.3,1
+Shirāli,Karnataka,India,14.024605,74.57143,2026-09-30T23:30,25.6,89,0.0,7.1,0
+Shirāli,Karnataka,India,14.024605,74.57143,2026-09-30T23:45,25.5,89,0.0,6.7,0
+Shirāli,Karnataka,India,14.024605,74.57143,2026-10-01T00:00,25.4,90,0.0,6.3,1
+Shirāli,Karnataka,India,14.024605,74.57143,2026-10-01T00:15,25.4,90,0.0,5.8,1
+Shirāli,Karnataka,India,14.024605,74.57143,2026-10-01T00:30,25.3,90,0.0,5.2,1
