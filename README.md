@@ -1,4 +1,4 @@
-﻿# AtmoSync – Micro-Climate Arbitrage Analytics
+# AtmoSync – Micro-Climate Arbitrage Analytics
 
 ## 1. Project Overview
 
@@ -24,32 +24,23 @@ The analytics support decision-making; identified opportunities and risk classif
 
 ## 3. Architecture
 
-```text
-Historical Weather ─┐
-Live Weather Feed ──┼──> Python Producers / Data Loaders
-IoT Sensor Data ────┘                |
-                                     v
-                              Apache Kafka
-                                     |
-                       Python Consumers / Loaders
-                                     |
-                                     v
-                                Snowflake
-                               ATMOSYNC_DB
-                                   RAW
-                                     |
-                                     v
-                              dbt Transformations
-                                     |
-                                     v
-                          Analytics and Risk Models
-                                     |
-                                     v
-                         Apache Superset Dashboard
+```mermaid
+flowchart TD
+    A["Kafka — Real-Time Streaming"]
 
-Market Data Generation ───────> Snowflake
+    A --> B["Historical Consumer"]
+    A --> C["Live Weather Consumer"]
+    A --> D["IoT Data Consumer"]
+
+    B --> E["Snowflake"]
+    C --> E
+    D --> E
+
+    E --> F["ATMOSYNC_DB - RAW"]
+    F --> G["dbt Transformation Models"]
+    G --> H["Analytical Views"]
+    H --> I["Apache Superset Dashboard"]
 ```
-
 The exact ingestion route depends on the source-specific producer, consumer, and loader scripts. Historical weather, live weather, IoT telemetry, and market data can follow different ingestion paths before their analytical outputs are combined.
 
 ## 4. Technology Stack
